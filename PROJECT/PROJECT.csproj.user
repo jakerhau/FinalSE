@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="checkEmailLabel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="CustomPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="dangkiDNmoi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ForgotPwd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormControl\HopDong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormControl\hopdongItem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormControl\HoSoKhachHangDangKiHopDong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormControl\HoSoKhachHangHopDong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormControl\HoSoKhachHangItem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormControl\HoSoKhachHangXuLyMau.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormControl\HoSoKHDKDN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormControl\HoSoKHDKDNItem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormControl\NhapThongSo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormControl\ThongBao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormControl\ThongTinDoanhNghiep.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormControl\XuLyMauMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormPDF.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Main1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="MongoDBChartApp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="resetEmailLabel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="resetPwdLabel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="RJControls\RJButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="RJControls\RJCircularPictureBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="RJControls\RJComboBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="RJControls\RJDropdownMenu.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="RJControls\RJProgressBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="RJControls\RJRadioButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="RJControls\RJTextBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="RJControls\RJToggleButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
