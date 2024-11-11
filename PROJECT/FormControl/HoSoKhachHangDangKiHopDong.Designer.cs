@@ -60,15 +60,15 @@
             // 
             // label1
             // 
-            label1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom;
-            label1.AutoSize = true;
-            label1.Font = new Font("Times New Roman", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(172, 9);
+            label1.Dock = DockStyle.Fill;
+            label1.Font = new Font("Segoe UI Semibold", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.Location = new Point(0, 0);
             label1.Margin = new Padding(2, 0, 2, 0);
             label1.Name = "label1";
-            label1.Size = new Size(204, 19);
+            label1.Size = new Size(556, 33);
             label1.TabIndex = 0;
             label1.Text = "ĐĂNG KÍ HỢP ĐỒNG MỚI";
+            label1.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // tableLayoutPanel2
             // 
@@ -141,6 +141,7 @@
             richTextBox4.PlaceholderText = "Ngày kết thúc...";
             richTextBox4.Size = new Size(222, 23);
             richTextBox4.TabIndex = 7;
+            richTextBox4.Leave += richTextBox4_Leave;
             // 
             // richTextBox3
             // 
@@ -149,9 +150,10 @@
             richTextBox3.Location = new Point(28, 111);
             richTextBox3.Margin = new Padding(28, 24, 28, 24);
             richTextBox3.Name = "richTextBox3";
-            richTextBox3.PlaceholderText = "Mã HĐ (tạo tự động)";
+            richTextBox3.PlaceholderText = "Mã hợp đồng";
             richTextBox3.Size = new Size(222, 23);
             richTextBox3.TabIndex = 6;
+            richTextBox3.Leave += richTextBox3_Leave;
             // 
             // richTextBox2
             // 
@@ -163,6 +165,7 @@
             richTextBox2.PlaceholderText = "Ngày bắt đầu...";
             richTextBox2.Size = new Size(222, 23);
             richTextBox2.TabIndex = 5;
+            richTextBox2.Leave += richTextBox2_Leave;
             // 
             // richTextBox1
             // 
@@ -213,8 +216,8 @@
             Margin = new Padding(2);
             Name = "HoSoKhachHangDangKiHopDong";
             Text = "HoSoKhachHangDangKiHopDong";
+            Resize += HoSoKhachHangDangKiHopDong_Resize;
             panel1.ResumeLayout(false);
-            panel1.PerformLayout();
             tableLayoutPanel2.ResumeLayout(false);
             tableLayoutPanel1.ResumeLayout(false);
             tableLayoutPanel1.PerformLayout();

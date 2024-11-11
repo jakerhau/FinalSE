@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\acer\\Documents\\PROJECT1\\PROJECT1\\PROJECT1\\PROJECT\\PROJECT.csproj": {}
+    "C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\PROJECT.csproj": {}
   },
   "projects": {
-    "C:\\Users\\acer\\Documents\\PROJECT1\\PROJECT1\\PROJECT1\\PROJECT\\PROJECT.csproj": {
+    "C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\PROJECT.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\acer\\Documents\\PROJECT1\\PROJECT1\\PROJECT1\\PROJECT\\PROJECT.csproj",
+        "projectUniqueName": "C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\PROJECT.csproj",
         "projectName": "PROJECT",
-        "projectPath": "C:\\Users\\acer\\Documents\\PROJECT1\\PROJECT1\\PROJECT1\\PROJECT\\PROJECT.csproj",
+        "projectPath": "C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\PROJECT.csproj",
         "packagesPath": "C:\\Users\\acer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\acer\\Documents\\PROJECT1\\PROJECT1\\PROJECT1\\PROJECT\\obj\\",
+        "outputPath": "C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\acer\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -44,7 +44,7 @@
             legend1.Name = "Legend1";
             chart1.Legends.Add(legend1);
             chart1.Location = new Point(0, 0);
-            chart1.Margin = new Padding(2, 2, 2, 2);
+            chart1.Margin = new Padding(2);
             chart1.Name = "chart1";
             series1.ChartArea = "ChartArea1";
             series1.Legend = "Legend1";
@@ -59,7 +59,7 @@
             sampleListBox.Dock = DockStyle.Right;
             sampleListBox.ItemHeight = 15;
             sampleListBox.Location = new Point(476, 0);
-            sampleListBox.Margin = new Padding(2, 2, 2, 2);
+            sampleListBox.Margin = new Padding(2);
             sampleListBox.Name = "sampleListBox";
             sampleListBox.Size = new Size(141, 337);
             sampleListBox.TabIndex = 1;
@@ -71,7 +71,7 @@
             ClientSize = new Size(617, 337);
             Controls.Add(chart1);
             Controls.Add(sampleListBox);
-            Margin = new Padding(2, 2, 2, 2);
+            Margin = new Padding(2);
             Name = "MongoDBChartApp";
             Text = "MongoDBChartApp";
             ((System.ComponentModel.ISupportInitialize)chart1).EndInit();

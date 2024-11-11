@@ -33,7 +33,6 @@
             tableLayoutPanel3 = new TableLayoutPanel();
             rjTextBox1 = new CustomControls.RJControls.RJTextBox();
             tableLayoutPanel4 = new TableLayoutPanel();
-            button7 = new Button();
             button8 = new Button();
             button9 = new Button();
             panel1 = new Panel();
@@ -45,6 +44,7 @@
             label3 = new Label();
             label4 = new Label();
             label5 = new Label();
+            button7 = new Button();
             panel3.SuspendLayout();
             tableLayoutPanel3.SuspendLayout();
             tableLayoutPanel4.SuspendLayout();
@@ -67,13 +67,12 @@
             // 
             // label1
             // 
-            label1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            label1.AutoSize = true;
-            label1.Font = new Font("Times New Roman", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(206, 5);
+            label1.Dock = DockStyle.Fill;
+            label1.Font = new Font("Segoe UI Semibold", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.Location = new Point(0, 0);
             label1.Margin = new Padding(2, 0, 2, 0);
             label1.Name = "label1";
-            label1.Size = new Size(304, 26);
+            label1.Size = new Size(868, 53);
             label1.TabIndex = 3;
             label1.Text = "NHẬP THÔNG SỐ CHUẨN";
             label1.TextAlign = ContentAlignment.MiddleCenter;
@@ -119,6 +118,7 @@
             rjTextBox1.TabIndex = 0;
             rjTextBox1.Texts = "";
             rjTextBox1.UnderlinedStyle = false;
+            rjTextBox1.Leave += rjTextBox1_Leave;
             // 
             // tableLayoutPanel4
             // 
@@ -140,20 +140,6 @@
             tableLayoutPanel4.RowStyles.Add(new RowStyle(SizeType.Absolute, 32F));
             tableLayoutPanel4.Size = new Size(868, 52);
             tableLayoutPanel4.TabIndex = 7;
-            // 
-            // button7
-            // 
-            button7.BackColor = SystemColors.ActiveCaption;
-            button7.Dock = DockStyle.Fill;
-            button7.Font = new Font("Times New Roman", 12F, FontStyle.Bold);
-            button7.Location = new Point(2, 2);
-            button7.Margin = new Padding(2);
-            button7.Name = "button7";
-            button7.Size = new Size(251, 48);
-            button7.TabIndex = 0;
-            button7.Text = "Duyệt tất cả";
-            button7.UseVisualStyleBackColor = false;
-            button7.Click += button7_Click;
             // 
             // button8
             // 
@@ -239,7 +225,7 @@
             NhapthongsoPanel.Controls.Add(label3, 2, 0);
             NhapthongsoPanel.Controls.Add(label4, 3, 0);
             NhapthongsoPanel.Controls.Add(label5, 4, 0);
-            NhapthongsoPanel.Location = new Point(20, 20);
+            NhapthongsoPanel.Location = new Point(18, 23);
             NhapthongsoPanel.Name = "NhapthongsoPanel";
             NhapthongsoPanel.RowCount = 2;
             NhapthongsoPanel.RowStyles.Add(new RowStyle(SizeType.Percent, 25F));
@@ -321,6 +307,20 @@
             label5.Text = "Tối đa";
             label5.TextAlign = ContentAlignment.MiddleCenter;
             // 
+            // button7
+            // 
+            button7.BackColor = SystemColors.ActiveCaption;
+            button7.Dock = DockStyle.Fill;
+            button7.Font = new Font("Times New Roman", 12F, FontStyle.Bold);
+            button7.Location = new Point(2, 2);
+            button7.Margin = new Padding(2);
+            button7.Name = "button7";
+            button7.Size = new Size(251, 48);
+            button7.TabIndex = 0;
+            button7.Text = "Duyệt tất cả";
+            button7.UseVisualStyleBackColor = false;
+            button7.Click += button7_Click;
+            // 
             // NhapThongSo
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -332,7 +332,6 @@
             Text = "NhapThongSo";
             Resize += NhapThongSo_Resize;
             panel3.ResumeLayout(false);
-            panel3.PerformLayout();
             tableLayoutPanel3.ResumeLayout(false);
             tableLayoutPanel4.ResumeLayout(false);
             panel1.ResumeLayout(false);
@@ -349,7 +348,6 @@
         private Label label1;
         private TableLayoutPanel tableLayoutPanel3;
         private TableLayoutPanel tableLayoutPanel4;
-        private Button button7;
         private Button button8;
         private Button button9;
         private Panel panel1;
@@ -362,5 +360,6 @@
         private Label label5;
         private CustomControls.RJControls.RJButton btnAddRow;
         private CustomControls.RJControls.RJTextBox rjTextBox1;
+        private Button button7;
     }
 }

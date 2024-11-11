@@ -34,8 +34,13 @@ namespace PROJECT
                 MessageBox.Show("Mật khẩu không trùng khớp");
                 return;
             }
+            if (rjTextBox1.Texts.Length < 6)
+            {
+                MessageBox.Show("Mật khẩu phải có ít nhất 6 kí tự");
+                return;
+            }
             var filter = Builders<User>.Filter.Eq("Email", emailVerify);
-            var update = Builders<User>.Update.Set("Password", rjTextBox1.Texts);
+            var update = Builders<User>.Update.Set("Password", SimpleAesEncryption.Encrypt(rjTextBox1.Texts));
             Admin.UpdateOne(filter, update);
 
             MessageBox.Show("Đặt lại mật khẩu thành công");

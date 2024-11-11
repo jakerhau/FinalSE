@@ -30,9 +30,11 @@
         {
             panel1 = new Panel();
             tableLayoutPanel2 = new TableLayoutPanel();
+            customPanel1 = new CustomPanel();
             button1 = new Button();
             panel1.SuspendLayout();
             tableLayoutPanel2.SuspendLayout();
+            customPanel1.SuspendLayout();
             SuspendLayout();
             // 
             // panel1
@@ -49,7 +51,7 @@
             // 
             tableLayoutPanel2.ColumnCount = 1;
             tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
-            tableLayoutPanel2.Controls.Add(button1, 0, 0);
+            tableLayoutPanel2.Controls.Add(customPanel1, 0, 0);
             tableLayoutPanel2.Dock = DockStyle.Fill;
             tableLayoutPanel2.Location = new Point(0, 0);
             tableLayoutPanel2.Name = "tableLayoutPanel2";
@@ -59,14 +61,29 @@
             tableLayoutPanel2.Size = new Size(339, 349);
             tableLayoutPanel2.TabIndex = 1;
             // 
+            // customPanel1
+            // 
+            customPanel1.BackColor = Color.White;
+            customPanel1.BorderRadius = 30;
+            customPanel1.Controls.Add(button1);
+            customPanel1.Dock = DockStyle.Fill;
+            customPanel1.ForeColor = Color.Black;
+            customPanel1.GradientAngle = 90F;
+            customPanel1.GradientBottomColor = Color.CadetBlue;
+            customPanel1.GradientTopColor = Color.DodgerBlue;
+            customPanel1.Location = new Point(3, 3);
+            customPanel1.Name = "customPanel1";
+            customPanel1.Size = new Size(333, 168);
+            customPanel1.TabIndex = 0;
+            // 
             // button1
             // 
             button1.Dock = DockStyle.Fill;
             button1.Location = new Point(0, 0);
             button1.Margin = new Padding(0);
             button1.Name = "button1";
-            button1.Size = new Size(339, 174);
-            button1.TabIndex = 3;
+            button1.Size = new Size(333, 168);
+            button1.TabIndex = 4;
             button1.Text = "Đăng kí DN";
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
@@ -83,6 +100,7 @@
             Resize += HoSoKHDKDNItem_Resize;
             panel1.ResumeLayout(false);
             tableLayoutPanel2.ResumeLayout(false);
+            customPanel1.ResumeLayout(false);
             ResumeLayout(false);
         }
 
@@ -90,6 +108,7 @@
 
         private Panel panel1;
         private TableLayoutPanel tableLayoutPanel2;
+        private CustomPanel customPanel1;
         private Button button1;
     }
 }

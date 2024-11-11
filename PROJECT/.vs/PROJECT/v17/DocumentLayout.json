@@ -1,154 +1,223 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\acer\\Documents\\PROJECT1\\PROJECT1\\PROJECT1\\PROJECT\\",
+  "WorkspaceRootPath": "C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|C:\\Users\\acer\\Documents\\PROJECT1\\PROJECT1\\PROJECT1\\PROJECT\\formcontrol\\xulymaumain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|solutionrelative:formcontrol\\xulymaumain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|c:\\users\\acer\\documents\\project1\\project1\\project1\\project\\formcontrol\\xulymaumain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|solutionrelative:formcontrol\\xulymaumain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|C:\\Users\\acer\\Documents\\PROJECT1\\PROJECT1\\PROJECT1\\PROJECT\\formcontrol\\thongtindoanhnghiep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|solutionrelative:formcontrol\\thongtindoanhnghiep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|C:\\Users\\acer\\Documents\\PROJECT1\\PROJECT1\\PROJECT1\\PROJECT\\formcontrol\\nhapthongso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|solutionrelative:formcontrol\\nhapthongso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|C:\\Users\\acer\\Documents\\PROJECT1\\PROJECT1\\PROJECT1\\PROJECT\\formcontrol\\hosokhdkdnitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|solutionrelative:formcontrol\\hosokhdkdnitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|C:\\Users\\acer\\Documents\\PROJECT1\\PROJECT1\\PROJECT1\\PROJECT\\formcontrol\\hosokhdkdn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|solutionrelative:formcontrol\\hosokhdkdn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|C:\\Users\\acer\\Documents\\PROJECT1\\PROJECT1\\PROJECT1\\PROJECT\\formcontrol\\hosokhachhangxulymau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|solutionrelative:formcontrol\\hosokhachhangxulymau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|C:\\Users\\acer\\Documents\\PROJECT1\\PROJECT1\\PROJECT1\\PROJECT\\formcontrol\\hosokhachhangitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|solutionrelative:formcontrol\\hosokhachhangitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|C:\\Users\\acer\\Documents\\PROJECT1\\PROJECT1\\PROJECT1\\PROJECT\\formcontrol\\hosokhachhanghopdong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|solutionrelative:formcontrol\\hosokhachhanghopdong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|C:\\Users\\acer\\Documents\\PROJECT1\\PROJECT1\\PROJECT1\\PROJECT\\formcontrol\\hopdong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|solutionrelative:formcontrol\\hopdong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|C:\\Users\\acer\\Documents\\PROJECT1\\PROJECT1\\PROJECT1\\PROJECT\\formcontrol\\hopdongitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|solutionrelative:formcontrol\\hopdongitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|C:\\Users\\acer\\Documents\\PROJECT1\\PROJECT1\\PROJECT1\\PROJECT\\formcontrol\\hosokhachhangdangkihopdong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|solutionrelative:formcontrol\\hosokhachhangdangkihopdong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|c:\\users\\acer\\documents\\project1\\project1\\project1\\project\\formcontrol\\hosokhachhangxulymau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|solutionrelative:formcontrol\\hosokhachhangxulymau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|c:\\users\\acer\\documents\\project1\\project1\\project1\\project\\formcontrol\\hosokhdkdn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|solutionrelative:formcontrol\\hosokhdkdn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|c:\\users\\acer\\documents\\project1\\project1\\project1\\project\\formcontrol\\hosokhachhanghopdong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|solutionrelative:formcontrol\\hosokhachhanghopdong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|c:\\users\\acer\\documents\\project1\\project1\\project1\\project\\formcontrol\\hopdong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|solutionrelative:formcontrol\\hopdong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|C:\\Users\\acer\\Documents\\PROJECT1\\PROJECT1\\PROJECT1\\PROJECT\\formcontrol\\thongbao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|solutionrelative:formcontrol\\thongbao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|c:\\users\\acer\\documents\\project1\\project1\\project1\\project\\formcontrol\\hosokhdkdnitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|solutionrelative:formcontrol\\hosokhdkdnitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|c:\\users\\acer\\documents\\project1\\project1\\project1\\project\\formcontrol\\hosokhachhangxulymau.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|solutionrelative:formcontrol\\hosokhachhangxulymau.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|c:\\users\\acer\\documents\\project1\\project1\\project1\\project\\formpdf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|solutionrelative:formpdf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|C:\\Users\\acer\\Documents\\PROJECT1\\PROJECT1\\PROJECT1\\PROJECT\\formpdf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|solutionrelative:formpdf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|c:\\users\\acer\\documents\\project1\\project1\\project1\\project\\formpdf.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|solutionrelative:formpdf.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|c:\\users\\acer\\documents\\project1\\project1\\project1\\project\\main1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|solutionrelative:main1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|c:\\users\\acer\\documents\\project1\\project1\\project1\\project\\formcontrol\\hosokhachhangitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|solutionrelative:formcontrol\\hosokhachhangitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|c:\\users\\acer\\documents\\project1\\project1\\project1\\project\\formcontrol\\nhapthongso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|solutionrelative:formcontrol\\nhapthongso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|C:\\Users\\acer\\Documents\\PROJECT1\\PROJECT1\\PROJECT1\\PROJECT\\main1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|solutionrelative:main1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|C:\\Users\\acer\\Documents\\PROJECT1\\PROJECT1\\PROJECT1\\PROJECT\\resetpwdlabel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|solutionrelative:resetpwdlabel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|C:\\Users\\acer\\Documents\\PROJECT1\\PROJECT1\\PROJECT1\\PROJECT\\resetemaillabel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|solutionrelative:resetemaillabel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|C:\\Users\\acer\\Documents\\PROJECT1\\PROJECT1\\PROJECT1\\PROJECT\\dangkidnmoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|solutionrelative:dangkidnmoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|c:\\users\\acer\\documents\\project1\\project1\\project1\\project\\formcontrol\\thongbao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|solutionrelative:formcontrol\\thongbao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|c:\\users\\acer\\documents\\project1\\project1\\project1\\project\\formcontrol\\hosokhachhangdangkihopdong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|c:\\users\\acer\\documents\\finalse\\ver2_3\\userv2_4\\project\\formcontrol\\hosokhachhangdangkihopdong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|solutionrelative:formcontrol\\hosokhachhangdangkihopdong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|C:\\Users\\acer\\Documents\\PROJECT1\\PROJECT1\\PROJECT1\\PROJECT\\mongodbchartapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|solutionrelative:mongodbchartapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\formcontrol\\hosokhachhangdangkihopdong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|solutionrelative:formcontrol\\hosokhachhangdangkihopdong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|C:\\Users\\acer\\Documents\\PROJECT1\\PROJECT1\\PROJECT1\\PROJECT\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|solutionrelative:loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|c:\\users\\acer\\documents\\finalse\\ver2_3\\userv2_4\\project\\formcontrol\\hosokhachhangdangkihopdong.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|solutionrelative:formcontrol\\hosokhachhangdangkihopdong.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|C:\\Users\\acer\\Documents\\PROJECT1\\PROJECT1\\PROJECT1\\PROJECT\\forgotpwd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|solutionrelative:forgotpwd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\formcontrol\\hosokhachhanghopdong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|solutionrelative:formcontrol\\hosokhachhanghopdong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|C:\\Users\\acer\\Documents\\PROJECT1\\PROJECT1\\PROJECT1\\PROJECT\\checkemaillabel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\formcontrol\\hosokhachhangitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|solutionrelative:formcontrol\\hosokhachhangitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\formcontrol\\hosokhachhangxulymau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|solutionrelative:formcontrol\\hosokhachhangxulymau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\formcontrol\\hosokhdkdn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|solutionrelative:formcontrol\\hosokhdkdn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\formcontrol\\hosokhdkdnitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|solutionrelative:formcontrol\\hosokhdkdnitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\formcontrol\\nhapthongso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|solutionrelative:formcontrol\\nhapthongso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\formcontrol\\thongtindoanhnghiep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|solutionrelative:formcontrol\\thongtindoanhnghiep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|c:\\users\\acer\\documents\\finalse\\ver2_3\\userv2_4\\project\\formcontrol\\hopdong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|solutionrelative:formcontrol\\hopdong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|c:\\users\\acer\\documents\\finalse\\ver2_3\\userv2_4\\project\\formcontrol\\hopdongitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|solutionrelative:formcontrol\\hopdongitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|c:\\users\\acer\\documents\\finalse\\ver2_3\\userv2_4\\project\\formcontrol\\hosokhachhangxulymau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|solutionrelative:formcontrol\\hosokhachhangxulymau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\formcontrol\\thongbao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|solutionrelative:formcontrol\\thongbao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\formcontrol\\xulymaumain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|solutionrelative:formcontrol\\xulymaumain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\formcontrol\\xulymaumain_readonly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|solutionrelative:formcontrol\\xulymaumain_readonly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\formcontrol\\hopdongitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|solutionrelative:formcontrol\\hopdongitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\formcontrol\\hopdong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|solutionrelative:formcontrol\\hopdong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|c:\\users\\acer\\documents\\finalse\\ver2_3\\userv2_4\\project\\mongodbchartapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|solutionrelative:mongodbchartapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|c:\\users\\acer\\documents\\finalse\\ver2_3\\userv2_4\\project\\formcontrol\\hosokhachhanghopdong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|solutionrelative:formcontrol\\hosokhachhanghopdong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|c:\\users\\acer\\documents\\finalse\\ver2_3\\userv2_4\\project\\formcontrol\\hosokhachhangitem.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|solutionrelative:formcontrol\\hosokhachhangitem.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|c:\\users\\acer\\documents\\finalse\\ver2_3\\userv2_4\\project\\formcontrol\\hosokhachhangitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|solutionrelative:formcontrol\\hosokhachhangitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|c:\\users\\acer\\documents\\finalse\\ver2_3\\userv2_4\\project\\formcontrol\\xulymaumain_readonly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|solutionrelative:formcontrol\\xulymaumain_readonly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\checkemaillabel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|solutionrelative:checkemaillabel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|c:\\users\\acer\\documents\\project1\\project1\\project1\\project\\custompanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\dangkidnmoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|solutionrelative:dangkidnmoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|solutionrelative:loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\formpdf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|solutionrelative:formpdf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\forgotpwd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|solutionrelative:forgotpwd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\main1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|solutionrelative:main1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\mongodbchartapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|solutionrelative:mongodbchartapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|c:\\users\\acer\\documents\\finalse\\ver2_3\\userv2_4\\project\\formcontrol\\thongbao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|solutionrelative:formcontrol\\thongbao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|c:\\users\\acer\\documents\\finalse\\ver2_3\\userv2_4\\project\\formcontrol\\hosokhdkdn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|solutionrelative:formcontrol\\hosokhdkdn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|c:\\users\\acer\\documents\\finalse\\ver2_3\\userv2_4\\project\\custompanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|solutionrelative:custompanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|c:\\users\\acer\\documents\\project1\\project1\\project1\\project\\forgotpwd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|c:\\users\\acer\\documents\\finalse\\ver2_3\\userv2_4\\project\\formpdf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|solutionrelative:formpdf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|c:\\users\\acer\\documents\\finalse\\ver2_3\\userv2_4\\project\\dangkidnmoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|solutionrelative:dangkidnmoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|c:\\users\\acer\\documents\\finalse\\ver2_3\\userv2_4\\project\\formcontrol\\hosokhdkdnitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|solutionrelative:formcontrol\\hosokhdkdnitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|c:\\users\\acer\\documents\\finalse\\ver2_3\\userv2_4\\project\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|solutionrelative:loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|c:\\users\\acer\\documents\\finalse\\ver2_3\\userv2_4\\project\\formcontrol\\xulymaumain_readonly.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|solutionrelative:formcontrol\\xulymaumain_readonly.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\PROJECT\\XuLyMauMain_readonly.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\PROJECT\\XuLyMauMain_readonly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|c:\\users\\acer\\documents\\finalse\\ver2_3\\userv2_4\\project\\formpdf.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|solutionrelative:formpdf.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|c:\\users\\acer\\documents\\finalse\\ver2_3\\userv2_4\\project\\formcontrol\\nhapthongso.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|solutionrelative:formcontrol\\nhapthongso.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|c:\\users\\acer\\documents\\finalse\\ver2_3\\userv2_4\\project\\formcontrol\\hosokhachhangxulymau.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|solutionrelative:formcontrol\\hosokhachhangxulymau.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\resetemaillabel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|solutionrelative:resetemaillabel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\resetpwdlabel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|solutionrelative:resetpwdlabel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|c:\\users\\acer\\documents\\finalse\\ver2_3\\userv2_4\\project\\formcontrol\\thongbao.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|solutionrelative:formcontrol\\thongbao.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|c:\\users\\acer\\documents\\finalse\\ver2_3\\userv2_4\\project\\model\\contractmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|solutionrelative:model\\contractmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|c:\\users\\acer\\documents\\finalse\\ver2_3\\userv2_4\\project\\formcontrol\\xulymaumain.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|solutionrelative:formcontrol\\xulymaumain.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|c:\\users\\acer\\documents\\finalse\\ver2_3\\userv2_4\\project\\formcontrol\\hosokhachhanghopdong.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|solutionrelative:formcontrol\\hosokhachhanghopdong.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|c:\\users\\acer\\documents\\finalse\\ver2_3\\userv2_4\\project\\formcontrol\\hopdong.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|solutionrelative:formcontrol\\hopdong.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|c:\\users\\acer\\documents\\finalse\\ver2_3\\userv2_4\\project\\resetemaillabel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|solutionrelative:resetemaillabel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|c:\\users\\acer\\documents\\finalse\\ver2_3\\userv2_4\\project\\forgotpwd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|solutionrelative:forgotpwd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|c:\\users\\acer\\documents\\finalse\\ver2_3\\userv2_4\\project\\checkemaillabel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|solutionrelative:checkemaillabel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|c:\\users\\acer\\documents\\finalse\\ver2_3\\userv2_4\\project\\formcontrol\\thongtindoanhnghiep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5596896D-E7E2-4E43-806A-F825B4D9E43C}|PROJECT.csproj|solutionrelative:formcontrol\\thongtindoanhnghiep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -158,8 +227,22 @@
       "DocumentGroups": [
         {
           "DockedWidth": 494,
-          "SelectedChildIndex": 29,
+          "SelectedChildIndex": 6,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MongoDBChartApp.cs",
+              "DocumentMoniker": "C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\MongoDBChartApp.cs",
+              "RelativeDocumentMoniker": "MongoDBChartApp.cs",
+              "ToolTip": "C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\MongoDBChartApp.cs",
+              "RelativeToolTip": "MongoDBChartApp.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAMwF0AAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T03:12:59.361Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
@@ -177,325 +260,436 @@
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "HoSoKhachHangXuLyMau.cs",
-              "DocumentMoniker": "C:\\Users\\acer\\Documents\\PROJECT1\\PROJECT1\\PROJECT1\\PROJECT\\FormControl\\HoSoKhachHangXuLyMau.cs",
-              "RelativeDocumentMoniker": "FormControl\\HoSoKhachHangXuLyMau.cs",
-              "ToolTip": "C:\\Users\\acer\\Documents\\PROJECT1\\PROJECT1\\PROJECT1\\PROJECT\\FormControl\\HoSoKhachHangXuLyMau.cs",
-              "RelativeToolTip": "FormControl\\HoSoKhachHangXuLyMau.cs",
-              "ViewState": "AgIAAAkBAAAAAAAAAAAowBsBAAANAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "HoSoKhachHangDangKiHopDong.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\FormControl\\HoSoKhachHangDangKiHopDong.Designer.cs",
+              "RelativeDocumentMoniker": "FormControl\\HoSoKhachHangDangKiHopDong.Designer.cs",
+              "ToolTip": "C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\FormControl\\HoSoKhachHangDangKiHopDong.Designer.cs",
+              "RelativeToolTip": "FormControl\\HoSoKhachHangDangKiHopDong.Designer.cs",
+              "ViewState": "AgIAAIMAAAAAAAAAAAAswI8AAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T00:50:59.992Z",
+              "WhenOpened": "2024-11-10T14:22:15.127Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "FormPDF.cs",
-              "DocumentMoniker": "C:\\Users\\acer\\Documents\\PROJECT1\\PROJECT1\\PROJECT1\\PROJECT\\FormPDF.cs",
-              "RelativeDocumentMoniker": "FormPDF.cs",
-              "ToolTip": "C:\\Users\\acer\\Documents\\PROJECT1\\PROJECT1\\PROJECT1\\PROJECT\\FormPDF.cs",
-              "RelativeToolTip": "FormPDF.cs",
-              "ViewState": "AgIAAMkAAAAAAAAAAADwv88AAABYAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "HoSoKhachHangDangKiHopDong.cs",
+              "DocumentMoniker": "C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\FormControl\\HoSoKhachHangDangKiHopDong.cs",
+              "RelativeDocumentMoniker": "FormControl\\HoSoKhachHangDangKiHopDong.cs",
+              "ToolTip": "C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\FormControl\\HoSoKhachHangDangKiHopDong.cs",
+              "RelativeToolTip": "FormControl\\HoSoKhachHangDangKiHopDong.cs",
+              "ViewState": "AgIAAH4AAAAAAAAAAAD4v4QAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T01:17:34.027Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "HoSoKhachHangXuLyMau.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\acer\\Documents\\PROJECT1\\PROJECT1\\PROJECT1\\PROJECT\\FormControl\\HoSoKhachHangXuLyMau.cs",
-              "RelativeDocumentMoniker": "FormControl\\HoSoKhachHangXuLyMau.cs",
-              "ToolTip": "C:\\Users\\acer\\Documents\\PROJECT1\\PROJECT1\\PROJECT1\\PROJECT\\FormControl\\HoSoKhachHangXuLyMau.cs [Design]",
-              "RelativeToolTip": "FormControl\\HoSoKhachHangXuLyMau.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T00:29:17.712Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "HoSoKhachHangXuLyMau.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\acer\\Documents\\PROJECT1\\PROJECT1\\PROJECT1\\PROJECT\\FormControl\\HoSoKhachHangXuLyMau.Designer.cs",
-              "RelativeDocumentMoniker": "FormControl\\HoSoKhachHangXuLyMau.Designer.cs",
-              "ToolTip": "C:\\Users\\acer\\Documents\\PROJECT1\\PROJECT1\\PROJECT1\\PROJECT\\FormControl\\HoSoKhachHangXuLyMau.Designer.cs",
-              "RelativeToolTip": "FormControl\\HoSoKhachHangXuLyMau.Designer.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAjwBYAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T01:34:06.431Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "NhapThongSo.cs",
-              "DocumentMoniker": "C:\\Users\\acer\\Documents\\PROJECT1\\PROJECT1\\PROJECT1\\PROJECT\\FormControl\\NhapThongSo.cs",
-              "RelativeDocumentMoniker": "FormControl\\NhapThongSo.cs",
-              "ToolTip": "C:\\Users\\acer\\Documents\\PROJECT1\\PROJECT1\\PROJECT1\\PROJECT\\FormControl\\NhapThongSo.cs",
-              "RelativeToolTip": "FormControl\\NhapThongSo.cs",
-              "ViewState": "AgIAAIkAAAAAAAAAAAAhwKIAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T00:46:42.835Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "HopDong.cs",
-              "DocumentMoniker": "C:\\Users\\acer\\Documents\\PROJECT1\\PROJECT1\\PROJECT1\\PROJECT\\FormControl\\HopDong.cs",
-              "RelativeDocumentMoniker": "FormControl\\HopDong.cs",
-              "ToolTip": "C:\\Users\\acer\\Documents\\PROJECT1\\PROJECT1\\PROJECT1\\PROJECT\\FormControl\\HopDong.cs",
-              "RelativeToolTip": "FormControl\\HopDong.cs",
-              "ViewState": "AgIAAFoAAAAAAAAAAAAwwG0AAABOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T00:45:17.274Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "XuLyMauMain.cs",
-              "DocumentMoniker": "C:\\Users\\acer\\Documents\\PROJECT1\\PROJECT1\\PROJECT1\\PROJECT\\FormControl\\XuLyMauMain.cs",
-              "RelativeDocumentMoniker": "FormControl\\XuLyMauMain.cs",
-              "ToolTip": "C:\\Users\\acer\\Documents\\PROJECT1\\PROJECT1\\PROJECT1\\PROJECT\\FormControl\\XuLyMauMain.cs",
-              "RelativeToolTip": "FormControl\\XuLyMauMain.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAcwCwAAABRAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T00:42:51.061Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "FormPDF.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\acer\\Documents\\PROJECT1\\PROJECT1\\PROJECT1\\PROJECT\\FormPDF.Designer.cs",
-              "RelativeDocumentMoniker": "FormPDF.Designer.cs",
-              "ToolTip": "C:\\Users\\acer\\Documents\\PROJECT1\\PROJECT1\\PROJECT1\\PROJECT\\FormPDF.Designer.cs",
-              "RelativeToolTip": "FormPDF.Designer.cs",
-              "ViewState": "AgIAANkAAAAAAAAAAAAAANYAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T01:18:42.45Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "Main1.cs",
-              "DocumentMoniker": "C:\\Users\\acer\\Documents\\PROJECT1\\PROJECT1\\PROJECT1\\PROJECT\\Main1.cs",
-              "RelativeDocumentMoniker": "Main1.cs",
-              "ToolTip": "C:\\Users\\acer\\Documents\\PROJECT1\\PROJECT1\\PROJECT1\\PROJECT\\Main1.cs",
-              "RelativeToolTip": "Main1.cs",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAEwFsAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T00:18:02.381Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "HoSoKHDKDNItem.cs",
-              "DocumentMoniker": "C:\\Users\\acer\\Documents\\PROJECT1\\PROJECT1\\PROJECT1\\PROJECT\\FormControl\\HoSoKHDKDNItem.cs",
-              "RelativeDocumentMoniker": "FormControl\\HoSoKHDKDNItem.cs",
-              "ToolTip": "C:\\Users\\acer\\Documents\\PROJECT1\\PROJECT1\\PROJECT1\\PROJECT\\FormControl\\HoSoKHDKDNItem.cs",
-              "RelativeToolTip": "FormControl\\HoSoKHDKDNItem.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAADgvycAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T00:59:29.224Z",
+              "WhenOpened": "2024-11-10T14:18:22.23Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "HoSoKhachHangHopDong.cs",
-              "DocumentMoniker": "C:\\Users\\acer\\Documents\\PROJECT1\\PROJECT1\\PROJECT1\\PROJECT\\FormControl\\HoSoKhachHangHopDong.cs",
-              "RelativeDocumentMoniker": "FormControl\\HoSoKhachHangHopDong.cs",
-              "ToolTip": "C:\\Users\\acer\\Documents\\PROJECT1\\PROJECT1\\PROJECT1\\PROJECT\\FormControl\\HoSoKhachHangHopDong.cs",
-              "RelativeToolTip": "FormControl\\HoSoKhachHangHopDong.cs",
-              "ViewState": "AgIAAJYAAAAAAAAAAAAwwK0AAAABAAAAAAAAAA==",
+              "Title": "XuLyMauMain.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\FormControl\\XuLyMauMain.cs",
+              "RelativeDocumentMoniker": "FormControl\\XuLyMauMain.cs",
+              "ToolTip": "C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_3\\PROJECT\\FormControl\\XuLyMauMain.cs [Design]",
+              "RelativeToolTip": "..\\..\\userv2_3\\PROJECT\\FormControl\\XuLyMauMain.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T00:39:55.763Z",
+              "WhenOpened": "2024-11-10T14:18:08.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "HoSoKhachHangItem.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\FormControl\\HoSoKhachHangItem.Designer.cs",
+              "RelativeDocumentMoniker": "FormControl\\HoSoKhachHangItem.Designer.cs",
+              "ToolTip": "C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\FormControl\\HoSoKhachHangItem.Designer.cs",
+              "RelativeToolTip": "FormControl\\HoSoKhachHangItem.Designer.cs",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAswHEAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T13:02:33.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "HoSoKhachHangXuLyMau.cs",
+              "DocumentMoniker": "C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\FormControl\\HoSoKhachHangXuLyMau.cs",
+              "RelativeDocumentMoniker": "FormControl\\HoSoKhachHangXuLyMau.cs",
+              "ToolTip": "C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\FormControl\\HoSoKhachHangXuLyMau.cs",
+              "RelativeToolTip": "FormControl\\HoSoKhachHangXuLyMau.cs",
+              "ViewState": "AgIAAAkBAAAAAAAAAAAIwBYBAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T03:29:43.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "XuLyMauMain_readonly.cs",
+              "DocumentMoniker": "C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\FormControl\\XuLyMauMain_readonly.cs",
+              "RelativeDocumentMoniker": "FormControl\\XuLyMauMain_readonly.cs",
+              "ToolTip": "C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\FormControl\\XuLyMauMain_readonly.cs",
+              "RelativeToolTip": "FormControl\\XuLyMauMain_readonly.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAkwCUAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T03:54:24.574Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 30,
-              "Title": "HoSoKhachHangDangKiHopDong.cs",
-              "DocumentMoniker": "C:\\Users\\acer\\Documents\\PROJECT1\\PROJECT1\\PROJECT1\\PROJECT\\FormControl\\HoSoKhachHangDangKiHopDong.cs",
-              "RelativeDocumentMoniker": "FormControl\\HoSoKhachHangDangKiHopDong.cs",
-              "ToolTip": "C:\\Users\\acer\\Documents\\PROJECT1\\PROJECT1\\PROJECT1\\PROJECT\\FormControl\\HoSoKhachHangDangKiHopDong.cs",
-              "RelativeToolTip": "FormControl\\HoSoKhachHangDangKiHopDong.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T00:39:22.921Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "CustomPanel.cs",
-              "DocumentMoniker": "C:\\Users\\acer\\Documents\\PROJECT1\\PROJECT1\\PROJECT1\\PROJECT\\CustomPanel.cs",
-              "RelativeDocumentMoniker": "CustomPanel.cs",
-              "ToolTip": "C:\\Users\\acer\\Documents\\PROJECT1\\PROJECT1\\PROJECT1\\PROJECT\\CustomPanel.cs",
-              "RelativeToolTip": "CustomPanel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T00:37:32.965Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
               "Title": "ThongBao.cs",
-              "DocumentMoniker": "C:\\Users\\acer\\Documents\\PROJECT1\\PROJECT1\\PROJECT1\\PROJECT\\FormControl\\ThongBao.cs",
+              "DocumentMoniker": "C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\FormControl\\ThongBao.cs",
               "RelativeDocumentMoniker": "FormControl\\ThongBao.cs",
-              "ToolTip": "C:\\Users\\acer\\Documents\\PROJECT1\\PROJECT1\\PROJECT1\\PROJECT\\FormControl\\ThongBao.cs",
+              "ToolTip": "C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\FormControl\\ThongBao.cs",
               "RelativeToolTip": "FormControl\\ThongBao.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAUwA4AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-08T00:33:20.091Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 31,
               "Title": "HoSoKHDKDN.cs",
-              "DocumentMoniker": "C:\\Users\\acer\\Documents\\PROJECT1\\PROJECT1\\PROJECT1\\PROJECT\\FormControl\\HoSoKHDKDN.cs",
+              "DocumentMoniker": "C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\FormControl\\HoSoKHDKDN.cs",
               "RelativeDocumentMoniker": "FormControl\\HoSoKHDKDN.cs",
-              "ToolTip": "C:\\Users\\acer\\Documents\\PROJECT1\\PROJECT1\\PROJECT1\\PROJECT\\FormControl\\HoSoKHDKDN.cs",
+              "ToolTip": "C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\FormControl\\HoSoKHDKDN.cs",
               "RelativeToolTip": "FormControl\\HoSoKHDKDN.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAiwIAAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-08T00:31:21.656Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "HoSoKhachHangItem.cs",
-              "DocumentMoniker": "C:\\Users\\acer\\Documents\\PROJECT1\\PROJECT1\\PROJECT1\\PROJECT\\FormControl\\HoSoKhachHangItem.cs",
-              "RelativeDocumentMoniker": "FormControl\\HoSoKhachHangItem.cs",
-              "ToolTip": "C:\\Users\\acer\\Documents\\PROJECT1\\PROJECT1\\PROJECT1\\PROJECT\\FormControl\\HoSoKhachHangItem.cs",
-              "RelativeToolTip": "FormControl\\HoSoKhachHangItem.cs",
-              "ViewState": "AgIAAEcAAAAAAAAAAAAMwFsAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 19,
+              "Title": "HoSoKhachHangHopDong.cs",
+              "DocumentMoniker": "C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\FormControl\\HoSoKhachHangHopDong.cs",
+              "RelativeDocumentMoniker": "FormControl\\HoSoKhachHangHopDong.cs",
+              "ToolTip": "C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\FormControl\\HoSoKhachHangHopDong.cs",
+              "RelativeToolTip": "FormControl\\HoSoKhachHangHopDong.cs",
+              "ViewState": "AgIAAKIAAAAAAAAAAAAswK4AAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T00:28:39.413Z",
+              "WhenOpened": "2024-11-08T09:04:02.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "HopDong.cs",
+              "DocumentMoniker": "C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\FormControl\\HopDong.cs",
+              "RelativeDocumentMoniker": "FormControl\\HopDong.cs",
+              "ToolTip": "C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\FormControl\\HopDong.cs",
+              "RelativeToolTip": "FormControl\\HopDong.cs",
+              "ViewState": "AgIAAK8AAAAAAAAAAAApwMEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T00:45:17.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "CustomPanel.cs",
+              "DocumentMoniker": "C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\CustomPanel.cs",
+              "RelativeDocumentMoniker": "CustomPanel.cs",
+              "ToolTip": "C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\CustomPanel.cs",
+              "RelativeToolTip": "CustomPanel.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAowFMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T07:01:18.622Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "NhapThongSo.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\FormControl\\NhapThongSo.Designer.cs",
+              "RelativeDocumentMoniker": "FormControl\\NhapThongSo.Designer.cs",
+              "ToolTip": "C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\FormControl\\NhapThongSo.Designer.cs",
+              "RelativeToolTip": "FormControl\\NhapThongSo.Designer.cs",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAswHYAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T01:47:56.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "XuLyMauMain_readonly.cs",
+              "DocumentMoniker": "D:\\PROJECT\\XuLyMauMain_readonly.cs",
+              "ToolTip": "D:\\PROJECT\\XuLyMauMain_readonly.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T03:44:48.589Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "XuLyMauMain_readonly.Designer.cs",
+              "DocumentMoniker": "D:\\PROJECT\\XuLyMauMain_readonly.Designer.cs",
+              "ToolTip": "D:\\PROJECT\\XuLyMauMain_readonly.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T03:44:48.716Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "XuLyMauMain_readonly.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\FormControl\\XuLyMauMain_readonly.Designer.cs",
+              "RelativeDocumentMoniker": "FormControl\\XuLyMauMain_readonly.Designer.cs",
+              "ToolTip": "C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\FormControl\\XuLyMauMain_readonly.Designer.cs",
+              "RelativeToolTip": "FormControl\\XuLyMauMain_readonly.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T03:49:12.868Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "HoSoKhachHangXuLyMau.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\FormControl\\HoSoKhachHangXuLyMau.Designer.cs",
+              "RelativeDocumentMoniker": "FormControl\\HoSoKhachHangXuLyMau.Designer.cs",
+              "ToolTip": "C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\FormControl\\HoSoKhachHangXuLyMau.Designer.cs",
+              "RelativeToolTip": "FormControl\\HoSoKhachHangXuLyMau.Designer.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAWwBYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T01:17:34.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "XuLyMauMain.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\FormControl\\XuLyMauMain.Designer.cs",
+              "RelativeDocumentMoniker": "FormControl\\XuLyMauMain.Designer.cs",
+              "ToolTip": "C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\FormControl\\XuLyMauMain.Designer.cs",
+              "RelativeToolTip": "FormControl\\XuLyMauMain.Designer.cs",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAWwG4AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T14:06:32.038Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "HoSoKhachHangHopDong.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\FormControl\\HoSoKhachHangHopDong.Designer.cs",
+              "RelativeDocumentMoniker": "FormControl\\HoSoKhachHangHopDong.Designer.cs",
+              "ToolTip": "C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\FormControl\\HoSoKhachHangHopDong.Designer.cs",
+              "RelativeToolTip": "FormControl\\HoSoKhachHangHopDong.Designer.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAmwBkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T13:32:56.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "HopDong.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\FormControl\\HopDong.Designer.cs",
+              "RelativeDocumentMoniker": "FormControl\\HopDong.Designer.cs",
+              "ToolTip": "C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\FormControl\\HopDong.Designer.cs",
+              "RelativeToolTip": "FormControl\\HopDong.Designer.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAWwBkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T12:11:01.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AgIAAF8NAAAAAAAAAAApwFQNAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-11-09T15:01:30.97Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "ContractModel.cs",
+              "DocumentMoniker": "C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\Model\\ContractModel.cs",
+              "RelativeDocumentMoniker": "Model\\ContractModel.cs",
+              "ToolTip": "C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\Model\\ContractModel.cs",
+              "RelativeToolTip": "Model\\ContractModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T15:01:52.5Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "ThongBao.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\FormControl\\ThongBao.Designer.cs",
+              "RelativeDocumentMoniker": "FormControl\\ThongBao.Designer.cs",
+              "ToolTip": "C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\FormControl\\ThongBao.Designer.cs",
+              "RelativeToolTip": "FormControl\\ThongBao.Designer.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAmwMMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T15:31:28.796Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "resetEmailLabel.cs",
+              "DocumentMoniker": "C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\resetEmailLabel.cs",
+              "RelativeDocumentMoniker": "resetEmailLabel.cs",
+              "ToolTip": "C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\resetEmailLabel.cs",
+              "RelativeToolTip": "resetEmailLabel.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwCMAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T12:01:07.143Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 36,
+              "Title": "LoginForm.cs",
+              "DocumentMoniker": "C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\LoginForm.cs",
+              "RelativeDocumentMoniker": "LoginForm.cs",
+              "ToolTip": "C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\LoginForm.cs",
+              "RelativeToolTip": "LoginForm.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAIwGcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T12:00:17.043Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "dangkiDNmoi.cs",
+              "DocumentMoniker": "C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\dangkiDNmoi.cs",
+              "RelativeDocumentMoniker": "dangkiDNmoi.cs",
+              "ToolTip": "C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\dangkiDNmoi.cs",
+              "RelativeToolTip": "dangkiDNmoi.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAArwDoAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T11:59:38.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "checkEmailLabel.cs",
+              "DocumentMoniker": "C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\checkEmailLabel.cs",
+              "RelativeDocumentMoniker": "checkEmailLabel.cs",
+              "ToolTip": "C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\checkEmailLabel.cs",
+              "RelativeToolTip": "checkEmailLabel.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAswCQAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T11:59:26.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "HoSoKhachHangItem.cs",
+              "DocumentMoniker": "C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\FormControl\\HoSoKhachHangItem.cs",
+              "RelativeDocumentMoniker": "FormControl\\HoSoKhachHangItem.cs",
+              "ToolTip": "C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\FormControl\\HoSoKhachHangItem.cs",
+              "RelativeToolTip": "FormControl\\HoSoKhachHangItem.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAA3wEIAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T11:56:07.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "hopdongItem.cs",
+              "DocumentMoniker": "C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\FormControl\\hopdongItem.cs",
+              "RelativeDocumentMoniker": "FormControl\\hopdongItem.cs",
+              "ToolTip": "C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\FormControl\\hopdongItem.cs",
+              "RelativeToolTip": "FormControl\\hopdongItem.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwCEAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T11:54:22.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "ThongTinDoanhNghiep.cs",
+              "DocumentMoniker": "C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\FormControl\\ThongTinDoanhNghiep.cs",
+              "RelativeDocumentMoniker": "FormControl\\ThongTinDoanhNghiep.cs",
+              "ToolTip": "C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\FormControl\\ThongTinDoanhNghiep.cs",
+              "RelativeToolTip": "FormControl\\ThongTinDoanhNghiep.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAAAD8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T08:50:33.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "FormPDF.cs",
+              "DocumentMoniker": "C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\FormPDF.cs",
+              "RelativeDocumentMoniker": "FormPDF.cs",
+              "ToolTip": "C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\FormPDF.cs",
+              "RelativeToolTip": "FormPDF.cs",
+              "ViewState": "AgIAADMCAAAAAAAAAAAIwEACAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T01:17:34.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "FormPDF.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\FormPDF.Designer.cs",
+              "RelativeDocumentMoniker": "FormPDF.Designer.cs",
+              "ToolTip": "C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\FormPDF.Designer.cs",
+              "RelativeToolTip": "FormPDF.Designer.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAWwBYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T01:18:42.45Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "HoSoKHDKDNItem.cs",
+              "DocumentMoniker": "C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\FormControl\\HoSoKHDKDNItem.cs",
+              "RelativeDocumentMoniker": "FormControl\\HoSoKHDKDNItem.cs",
+              "ToolTip": "C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\FormControl\\HoSoKHDKDNItem.cs",
+              "RelativeToolTip": "FormControl\\HoSoKHDKDNItem.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAuwCEAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T00:59:29.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
               "Title": "ForgotPwd.cs",
-              "DocumentMoniker": "C:\\Users\\acer\\Documents\\PROJECT1\\PROJECT1\\PROJECT1\\PROJECT\\ForgotPwd.cs",
+              "DocumentMoniker": "C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\ForgotPwd.cs",
               "RelativeDocumentMoniker": "ForgotPwd.cs",
-              "ToolTip": "C:\\Users\\acer\\Documents\\PROJECT1\\PROJECT1\\PROJECT1\\PROJECT\\ForgotPwd.cs",
+              "ToolTip": "C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\ForgotPwd.cs",
               "RelativeToolTip": "ForgotPwd.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAADwv0IAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAwwDsAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-08T00:26:16.228Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "FormPDF.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\acer\\Documents\\PROJECT1\\PROJECT1\\PROJECT1\\PROJECT\\FormPDF.cs",
-              "RelativeDocumentMoniker": "FormPDF.cs",
-              "ToolTip": "D:\\PROJECT1\\PROJECT1\\PROJECT\\FormPDF.cs [Design]",
+              "DocumentIndex": 13,
+              "Title": "ThongBao.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\FormControl\\ThongBao.cs",
+              "RelativeDocumentMoniker": "FormControl\\ThongBao.cs",
+              "ToolTip": "C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_3\\PROJECT\\FormControl\\ThongBao.cs [Design]",
+              "RelativeToolTip": "..\\..\\userv2_3\\PROJECT\\FormControl\\ThongBao.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T00:27:35.836Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "HoSoKHDKDNItem.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\acer\\Documents\\PROJECT1\\PROJECT1\\PROJECT1\\PROJECT\\FormControl\\HoSoKHDKDNItem.cs",
-              "RelativeDocumentMoniker": "FormControl\\HoSoKHDKDNItem.cs",
-              "ToolTip": "C:\\Users\\acer\\Documents\\PROJECT1\\PROJECT1\\PROJECT1\\PROJECT\\FormControl\\HoSoKHDKDNItem.cs [Design]",
-              "RelativeToolTip": "FormControl\\HoSoKHDKDNItem.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T00:30:22.892Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "HoSoKhachHangDangKiHopDong.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\acer\\Documents\\PROJECT1\\PROJECT1\\PROJECT1\\PROJECT\\FormControl\\HoSoKhachHangDangKiHopDong.cs",
-              "RelativeDocumentMoniker": "FormControl\\HoSoKhachHangDangKiHopDong.cs",
-              "ToolTip": "C:\\Users\\acer\\Documents\\PROJECT1\\PROJECT1\\PROJECT1\\PROJECT\\FormControl\\HoSoKhachHangDangKiHopDong.cs [Design]",
-              "RelativeToolTip": "FormControl\\HoSoKhachHangDangKiHopDong.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T00:28:56.605Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-11-08T00:30:40.814Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "HopDong.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\acer\\Documents\\PROJECT1\\PROJECT1\\PROJECT1\\PROJECT\\FormControl\\HopDong.cs",
-              "RelativeDocumentMoniker": "FormControl\\HopDong.cs",
-              "ToolTip": "C:\\Users\\acer\\Documents\\PROJECT1\\PROJECT1\\PROJECT1\\PROJECT\\FormControl\\HopDong.cs [Design]",
-              "RelativeToolTip": "FormControl\\HopDong.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T00:45:15.528Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "resetPwdLabel.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\acer\\Documents\\PROJECT1\\PROJECT1\\PROJECT1\\PROJECT\\resetPwdLabel.cs",
-              "RelativeDocumentMoniker": "resetPwdLabel.cs",
-              "ToolTip": "C:\\Users\\PC\\Downloads\\PROJECT1\\PROJECT\\resetPwdLabel.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\PC\\Downloads\\PROJECT1\\PROJECT\\resetPwdLabel.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T00:37:47.614Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "resetEmailLabel.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\acer\\Documents\\PROJECT1\\PROJECT1\\PROJECT1\\PROJECT\\resetEmailLabel.cs",
-              "RelativeDocumentMoniker": "resetEmailLabel.cs",
-              "ToolTip": "C:\\Users\\PC\\Downloads\\PROJECT1\\PROJECT\\resetEmailLabel.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\PC\\Downloads\\PROJECT1\\PROJECT\\resetEmailLabel.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T00:37:46.116Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "dangkiDNmoi.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\acer\\Documents\\PROJECT1\\PROJECT1\\PROJECT1\\PROJECT\\dangkiDNmoi.cs",
-              "RelativeDocumentMoniker": "dangkiDNmoi.cs",
-              "ToolTip": "C:\\Users\\PC\\Downloads\\PROJECT1\\PROJECT\\dangkiDNmoi.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\PC\\Downloads\\PROJECT1\\PROJECT\\dangkiDNmoi.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T00:37:35.579Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "XuLyMauMain.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\acer\\Documents\\PROJECT1\\PROJECT1\\PROJECT1\\PROJECT\\FormControl\\XuLyMauMain.cs",
-              "RelativeDocumentMoniker": "FormControl\\XuLyMauMain.cs",
-              "ToolTip": "C:\\Users\\acer\\Documents\\PROJECT1\\PROJECT1\\PROJECT1\\PROJECT\\FormControl\\XuLyMauMain.cs [Design]",
-              "RelativeToolTip": "FormControl\\XuLyMauMain.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T00:37:30.083Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "ThongTinDoanhNghiep.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\acer\\Documents\\PROJECT1\\PROJECT1\\PROJECT1\\PROJECT\\FormControl\\ThongTinDoanhNghiep.cs",
+              "DocumentMoniker": "C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\FormControl\\ThongTinDoanhNghiep.cs",
               "RelativeDocumentMoniker": "FormControl\\ThongTinDoanhNghiep.cs",
-              "ToolTip": "C:\\Users\\acer\\Documents\\PROJECT1\\PROJECT1\\PROJECT1\\PROJECT\\FormControl\\ThongTinDoanhNghiep.cs [Design]",
+              "ToolTip": "C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\FormControl\\ThongTinDoanhNghiep.cs [Design]",
               "RelativeToolTip": "FormControl\\ThongTinDoanhNghiep.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-08T00:30:46.18Z",
@@ -503,23 +697,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "ThongBao.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\acer\\Documents\\PROJECT1\\PROJECT1\\PROJECT1\\PROJECT\\FormControl\\ThongBao.cs",
-              "RelativeDocumentMoniker": "FormControl\\ThongBao.cs",
-              "ToolTip": "C:\\Users\\acer\\Documents\\PROJECT1\\PROJECT1\\PROJECT1\\PROJECT\\FormControl\\ThongBao.cs [Design]",
-              "RelativeToolTip": "FormControl\\ThongBao.cs [Design]",
+              "DocumentIndex": 15,
+              "Title": "XuLyMauMain_readonly.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\FormControl\\XuLyMauMain_readonly.cs",
+              "RelativeDocumentMoniker": "FormControl\\XuLyMauMain_readonly.cs",
+              "ToolTip": "C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_3\\PROJECT\\FormControl\\XuLyMauMain_readonly.cs [Design]",
+              "RelativeToolTip": "..\\..\\userv2_3\\PROJECT\\FormControl\\XuLyMauMain_readonly.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T00:30:40.814Z",
+              "WhenOpened": "2024-11-10T03:54:26.071Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HoSoKHDKDN.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\FormControl\\HoSoKHDKDN.cs",
+              "RelativeDocumentMoniker": "FormControl\\HoSoKHDKDN.cs",
+              "ToolTip": "C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\FormControl\\HoSoKHDKDN.cs [Design]",
+              "RelativeToolTip": "FormControl\\HoSoKHDKDN.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T00:29:19.501Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
+              "Title": "HoSoKHDKDNItem.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\FormControl\\HoSoKHDKDNItem.cs",
+              "RelativeDocumentMoniker": "FormControl\\HoSoKHDKDNItem.cs",
+              "ToolTip": "C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\FormControl\\HoSoKHDKDNItem.cs [Design]",
+              "RelativeToolTip": "FormControl\\HoSoKHDKDNItem.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T00:30:22.892Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "NhapThongSo.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\acer\\Documents\\PROJECT1\\PROJECT1\\PROJECT1\\PROJECT\\FormControl\\NhapThongSo.cs",
+              "DocumentMoniker": "C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\FormControl\\NhapThongSo.cs",
               "RelativeDocumentMoniker": "FormControl\\NhapThongSo.cs",
-              "ToolTip": "C:\\Users\\acer\\Documents\\PROJECT1\\PROJECT1\\PROJECT1\\PROJECT\\FormControl\\NhapThongSo.cs [Design]",
+              "ToolTip": "C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\FormControl\\NhapThongSo.cs [Design]",
               "RelativeToolTip": "FormControl\\NhapThongSo.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-08T00:30:38.789Z",
@@ -528,105 +745,171 @@
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "HoSoKHDKDN.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\acer\\Documents\\PROJECT1\\PROJECT1\\PROJECT1\\PROJECT\\FormControl\\HoSoKHDKDN.cs",
-              "RelativeDocumentMoniker": "FormControl\\HoSoKHDKDN.cs",
-              "ToolTip": "C:\\Users\\acer\\Documents\\PROJECT1\\PROJECT1\\PROJECT1\\PROJECT\\FormControl\\HoSoKHDKDN.cs [Design]",
-              "RelativeToolTip": "FormControl\\HoSoKHDKDN.cs [Design]",
+              "Title": "HoSoKhachHangXuLyMau.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\FormControl\\HoSoKhachHangXuLyMau.cs",
+              "RelativeDocumentMoniker": "FormControl\\HoSoKhachHangXuLyMau.cs",
+              "ToolTip": "C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\FormControl\\HoSoKhachHangXuLyMau.cs [Design]",
+              "RelativeToolTip": "FormControl\\HoSoKhachHangXuLyMau.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T00:29:19.501Z",
+              "WhenOpened": "2024-11-08T00:29:17.712Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "HoSoKhachHangHopDong.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\acer\\Documents\\PROJECT1\\PROJECT1\\PROJECT1\\PROJECT\\FormControl\\HoSoKhachHangHopDong.cs",
-              "RelativeDocumentMoniker": "FormControl\\HoSoKhachHangHopDong.cs",
-              "ToolTip": "C:\\Users\\acer\\Documents\\PROJECT1\\PROJECT1\\PROJECT1\\PROJECT\\FormControl\\HoSoKhachHangHopDong.cs [Design]",
-              "RelativeToolTip": "FormControl\\HoSoKhachHangHopDong.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T00:28:55.756Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "HoSoKhachHangItem.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\acer\\Documents\\PROJECT1\\PROJECT1\\PROJECT1\\PROJECT\\FormControl\\HoSoKhachHangItem.cs",
+              "DocumentMoniker": "C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\FormControl\\HoSoKhachHangItem.cs",
               "RelativeDocumentMoniker": "FormControl\\HoSoKhachHangItem.cs",
-              "ToolTip": "C:\\Users\\acer\\Documents\\PROJECT1\\PROJECT1\\PROJECT1\\PROJECT\\FormControl\\HoSoKhachHangItem.cs [Design]",
+              "ToolTip": "C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\FormControl\\HoSoKhachHangItem.cs [Design]",
               "RelativeToolTip": "FormControl\\HoSoKhachHangItem.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T00:28:12.582Z",
+              "WhenOpened": "2024-11-09T11:56:06.643Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "hopdongItem.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\acer\\Documents\\PROJECT1\\PROJECT1\\PROJECT1\\PROJECT\\FormControl\\hopdongItem.cs",
-              "RelativeDocumentMoniker": "FormControl\\hopdongItem.cs",
-              "ToolTip": "C:\\Users\\acer\\Documents\\PROJECT1\\PROJECT1\\PROJECT1\\PROJECT\\FormControl\\hopdongItem.cs [Design]",
-              "RelativeToolTip": "FormControl\\hopdongItem.cs [Design]",
+              "DocumentIndex": 3,
+              "Title": "HoSoKhachHangHopDong.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\FormControl\\HoSoKhachHangHopDong.cs",
+              "RelativeDocumentMoniker": "FormControl\\HoSoKhachHangHopDong.cs",
+              "ToolTip": "C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\FormControl\\HoSoKhachHangHopDong.cs [Design]",
+              "RelativeToolTip": "FormControl\\HoSoKhachHangHopDong.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T00:27:46.449Z",
+              "WhenOpened": "2024-11-09T11:55:25.332Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 1,
+              "Title": "HoSoKhachHangDangKiHopDong.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\FormControl\\HoSoKhachHangDangKiHopDong.cs",
+              "RelativeDocumentMoniker": "FormControl\\HoSoKhachHangDangKiHopDong.cs",
+              "ToolTip": "C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\FormControl\\HoSoKhachHangDangKiHopDong.cs [Design]",
+              "RelativeToolTip": "FormControl\\HoSoKhachHangDangKiHopDong.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T09:03:55.145Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "HopDong.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\FormControl\\HopDong.cs",
+              "RelativeDocumentMoniker": "FormControl\\HopDong.cs",
+              "ToolTip": "C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_3\\PROJECT\\FormControl\\HopDong.cs [Design]",
+              "RelativeToolTip": "..\\..\\userv2_3\\PROJECT\\FormControl\\HopDong.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T00:45:15.528Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Main1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\Main1.cs",
+              "RelativeDocumentMoniker": "Main1.cs",
+              "ToolTip": "C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_3\\PROJECT\\Main1.cs [Design]",
+              "RelativeToolTip": "..\\..\\userv2_3\\PROJECT\\Main1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T14:46:03.645Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "hopdongItem.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\FormControl\\hopdongItem.cs",
+              "RelativeDocumentMoniker": "FormControl\\hopdongItem.cs",
+              "ToolTip": "C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_3\\PROJECT\\FormControl\\hopdongItem.cs [Design]",
+              "RelativeToolTip": "..\\..\\userv2_3\\PROJECT\\FormControl\\hopdongItem.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T08:53:38.218Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "LoginForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\LoginForm.cs",
+              "RelativeDocumentMoniker": "LoginForm.cs",
+              "ToolTip": "C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_3\\PROJECT\\LoginForm.cs [Design]",
+              "RelativeToolTip": "..\\..\\userv2_3\\PROJECT\\LoginForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T15:02:38.279Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "MongoDBChartApp.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\MongoDBChartApp.cs",
+              "RelativeDocumentMoniker": "MongoDBChartApp.cs",
+              "ToolTip": "C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_3\\PROJECT\\MongoDBChartApp.cs [Design]",
+              "RelativeToolTip": "..\\..\\userv2_3\\PROJECT\\MongoDBChartApp.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T12:00:57.823Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "FormPDF.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\FormPDF.cs",
+              "RelativeDocumentMoniker": "FormPDF.cs",
+              "ToolTip": "C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_3\\PROJECT\\FormPDF.cs [Design]",
+              "RelativeToolTip": "..\\..\\userv2_3\\PROJECT\\FormPDF.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T00:27:35.836Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "resetPwdLabel.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\resetPwdLabel.cs",
+              "RelativeDocumentMoniker": "resetPwdLabel.cs",
+              "ToolTip": "C:\\Users\\acer\\Documents\\FinalSE\\ver2_1 (2)\\ver2_1\\PROJECT\\resetPwdLabel.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\ver2_1 (2)\\ver2_1\\PROJECT\\resetPwdLabel.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T00:37:47.614Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "resetEmailLabel.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\resetEmailLabel.cs",
+              "RelativeDocumentMoniker": "resetEmailLabel.cs",
+              "ToolTip": "C:\\Users\\acer\\Documents\\FinalSE\\ver2_1 (2)\\ver2_1\\PROJECT\\resetEmailLabel.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\ver2_1 (2)\\ver2_1\\PROJECT\\resetEmailLabel.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T00:37:46.116Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "dangkiDNmoi.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\dangkiDNmoi.cs",
+              "RelativeDocumentMoniker": "dangkiDNmoi.cs",
+              "ToolTip": "C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_3\\PROJECT\\dangkiDNmoi.cs [Design]",
+              "RelativeToolTip": "..\\..\\userv2_3\\PROJECT\\dangkiDNmoi.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T00:37:35.579Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
               "Title": "checkEmailLabel.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\acer\\Documents\\PROJECT1\\PROJECT1\\PROJECT1\\PROJECT\\checkEmailLabel.cs",
+              "DocumentMoniker": "C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\checkEmailLabel.cs",
               "RelativeDocumentMoniker": "checkEmailLabel.cs",
-              "ToolTip": "C:\\Users\\PC\\Downloads\\PROJECT1\\PROJECT\\checkEmailLabel.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\PC\\Downloads\\PROJECT1\\PROJECT\\checkEmailLabel.cs [Design]",
+              "ToolTip": "C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_3\\PROJECT\\checkEmailLabel.cs [Design]",
+              "RelativeToolTip": "..\\..\\userv2_3\\PROJECT\\checkEmailLabel.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-08T00:27:37.31Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 27,
               "Title": "ForgotPwd.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\acer\\Documents\\PROJECT1\\PROJECT1\\PROJECT1\\PROJECT\\ForgotPwd.cs",
+              "DocumentMoniker": "C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_4\\PROJECT\\ForgotPwd.cs",
               "RelativeDocumentMoniker": "ForgotPwd.cs",
-              "ToolTip": "C:\\Users\\PC\\Downloads\\PROJECT1\\PROJECT\\ForgotPwd.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\PC\\Downloads\\PROJECT1\\PROJECT\\ForgotPwd.cs [Design]",
+              "ToolTip": "C:\\Users\\acer\\Documents\\FinalSE\\ver2_3\\userv2_3\\PROJECT\\ForgotPwd.cs [Design]",
+              "RelativeToolTip": "..\\..\\userv2_3\\PROJECT\\ForgotPwd.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-08T00:26:09.733Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "MongoDBChartApp.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\acer\\Documents\\PROJECT1\\PROJECT1\\PROJECT1\\PROJECT\\MongoDBChartApp.cs",
-              "RelativeDocumentMoniker": "MongoDBChartApp.cs",
-              "ToolTip": "C:\\Users\\PC\\Downloads\\PROJECT1\\PROJECT\\MongoDBChartApp.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\PC\\Downloads\\PROJECT1\\PROJECT\\MongoDBChartApp.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T00:26:07.79Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "Main1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\acer\\Documents\\PROJECT1\\PROJECT1\\PROJECT1\\PROJECT\\Main1.cs",
-              "RelativeDocumentMoniker": "Main1.cs",
-              "ToolTip": "C:\\Users\\PC\\Downloads\\PROJECT1\\PROJECT\\Main1.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\PC\\Downloads\\PROJECT1\\PROJECT\\Main1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T00:09:26.991Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "LoginForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\acer\\Documents\\PROJECT1\\PROJECT1\\PROJECT1\\PROJECT\\LoginForm.cs",
-              "RelativeDocumentMoniker": "LoginForm.cs",
-              "ToolTip": "C:\\Users\\PC\\Downloads\\PROJECT1\\PROJECT\\LoginForm.cs [Design]",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\PC\\Downloads\\PROJECT1\\PROJECT\\LoginForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T23:55:22.935Z"
             }
           ]
         },

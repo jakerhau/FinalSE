@@ -39,6 +39,7 @@ using iText.Kernel.Pdf.Canvas.Draw;
 using iTextImage = iText.Layout.Element.Image; 
 using iTextHorizontalAlignment = iText.Layout.Properties.HorizontalAlignment;
 using System.Diagnostics;
+using PROJECT.Services;
 
 
 
@@ -49,6 +50,7 @@ namespace PROJECT
         private IMongoDatabase _mongoDatabase;
         private string inputIdSample;
         private string inputId;
+        private ObjectId user;
 
         private string GetStandardForField(string fieldName)
         {
@@ -71,6 +73,10 @@ namespace PROJECT
         public void setId(string id)
         {
             this.inputId = id;
+        }
+        public void setIdUser(ObjectId id)
+        {
+            this.user = id;
         }
 
         public FormPDF()
@@ -183,7 +189,7 @@ namespace PROJECT
                     document.Add(new Paragraph("\n"));
 
                     // Tạo bảng PDF với số cột tương ứng
-                    Table table = new Table(new float[] { 1, 3, 2, 3, 2, 2});
+                    Table table = new Table(new float[] { 1, 3, 2, 3, 2, 2 });
                     table.SetWidth(UnitValue.CreatePercentValue(100));
 
                     // Thêm tiêu đề các cột vào bảng
@@ -388,7 +394,7 @@ namespace PROJECT
                 // Lặp qua tất cả các trường trong document sample
                 foreach (var element in sample.Elements)
                 {
-                    if (element.Name == "_id" || element.Name == "IdStatus" || element.Name == "Name")
+                    if (element.Name == "_id" || element.Name == "IdStatus" || element.Name == "Name" || element.Name == "IdSam")
                         continue;
 
 
@@ -572,6 +578,7 @@ namespace PROJECT
 
         private void button1_Click(object sender, EventArgs e)
         {
+            OperationServices.RecordExportReport(user);
             ExportToPdf();
         }
 
@@ -600,11 +607,7 @@ namespace PROJECT
         private void FormPDF_Load(object sender, EventArgs e)
         {
             idSample.Text = inputId;
+            textBox1_KeyDown(sender, new KeyEventArgs(Keys.Enter));
         }
-
-
-        //670353963e9e5f80b8866aca
-
-
     }
 }

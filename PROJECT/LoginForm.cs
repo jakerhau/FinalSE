@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using PROJECT.Model;
 using MongoDB.Driver;
 using MongoDB.Bson;
+using PROJECT.Services;
 
 namespace PROJECT
 {
@@ -80,11 +81,17 @@ namespace PROJECT
             var Customer = MongoHelper.GetUserCollection();
             var filter = Builders<User>.Filter.Eq("Email", rjTextBox1.Texts);
             var result = Customer.Find(filter).FirstOrDefault();
-            if (result == null || result.Password != rjTextBox2.Texts)
+            if (result == null || SimpleAesEncryption.Decrypt(result.Password) != rjTextBox2.Texts)
             {
                 MessageBox.Show("Tài khoản hoặc mật khẩu không đúng");
                 return;
             }
+            if (rjTextBox2.Texts.Length < 6)
+            {
+                MessageBox.Show("Mật khẩu phải có ít nhất 6 kí tự");
+                return;
+            }
+            OperationServices.RecordLogin(result.Id);
             MainForm.setUser(result);
             this.Close();
         }

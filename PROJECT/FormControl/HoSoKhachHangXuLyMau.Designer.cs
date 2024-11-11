@@ -54,11 +54,13 @@
             textBox1 = new TextBox();
             panel4 = new Panel();
             NhapthongsoPanel = new TableLayoutPanel();
+            label8 = new Label();
+            label13 = new Label();
+            label11 = new Label();
             btnAddRow = new CustomControls.RJControls.RJButton();
             label5 = new Label();
             label6 = new Label();
             label7 = new Label();
-            label8 = new Label();
             panel1.SuspendLayout();
             tableLayoutPanel2.SuspendLayout();
             panel2.SuspendLayout();
@@ -84,15 +86,15 @@
             // 
             // label1
             // 
-            label1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom;
-            label1.AutoSize = true;
-            label1.Font = new Font("Times New Roman", 11F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(238, 9);
+            label1.Dock = DockStyle.Fill;
+            label1.Font = new Font("Segoe UI Semibold", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.Location = new Point(0, 0);
             label1.Margin = new Padding(2, 0, 2, 0);
             label1.Name = "label1";
-            label1.Size = new Size(211, 17);
+            label1.Size = new Size(670, 38);
             label1.TabIndex = 0;
             label1.Text = "Nhập/Duyệt kết quả thí nghiệm";
+            label1.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // tableLayoutPanel2
             // 
@@ -265,6 +267,7 @@
             textBox4.Name = "textBox4";
             textBox4.Size = new Size(113, 23);
             textBox4.TabIndex = 6;
+            textBox4.Leave += textBox4_Leave;
             // 
             // label10
             // 
@@ -396,17 +399,21 @@
             // NhapthongsoPanel
             // 
             NhapthongsoPanel.AutoSize = true;
-            NhapthongsoPanel.ColumnCount = 5;
+            NhapthongsoPanel.ColumnCount = 7;
+            NhapthongsoPanel.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 10F));
+            NhapthongsoPanel.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 10F));
+            NhapthongsoPanel.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 10F));
+            NhapthongsoPanel.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 10F));
             NhapthongsoPanel.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 20F));
             NhapthongsoPanel.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 20F));
             NhapthongsoPanel.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 20F));
-            NhapthongsoPanel.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 20F));
-            NhapthongsoPanel.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 20F));
+            NhapthongsoPanel.Controls.Add(label8, 6, 0);
+            NhapthongsoPanel.Controls.Add(label13, 5, 0);
+            NhapthongsoPanel.Controls.Add(label11, 4, 0);
             NhapthongsoPanel.Controls.Add(btnAddRow, 0, 1);
             NhapthongsoPanel.Controls.Add(label5, 1, 0);
             NhapthongsoPanel.Controls.Add(label6, 2, 0);
             NhapthongsoPanel.Controls.Add(label7, 3, 0);
-            NhapthongsoPanel.Controls.Add(label8, 4, 0);
             NhapthongsoPanel.Dock = DockStyle.Top;
             NhapthongsoPanel.Location = new Point(0, 0);
             NhapthongsoPanel.Name = "NhapthongsoPanel";
@@ -415,6 +422,45 @@
             NhapthongsoPanel.RowStyles.Add(new RowStyle(SizeType.Percent, 64.39024F));
             NhapthongsoPanel.Size = new Size(651, 211);
             NhapthongsoPanel.TabIndex = 6;
+            // 
+            // label8
+            // 
+            label8.AutoSize = true;
+            label8.BackColor = Color.FromArgb(234, 254, 193);
+            label8.Dock = DockStyle.Fill;
+            label8.Font = new Font("Segoe UI Semibold", 9.75F, FontStyle.Bold);
+            label8.Location = new Point(523, 0);
+            label8.Name = "label8";
+            label8.Size = new Size(125, 75);
+            label8.TabIndex = 13;
+            label8.Text = "Kết luận";
+            label8.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // label13
+            // 
+            label13.AutoSize = true;
+            label13.BackColor = Color.FromArgb(246, 246, 246);
+            label13.Dock = DockStyle.Fill;
+            label13.Font = new Font("Segoe UI Semibold", 9.75F, FontStyle.Bold);
+            label13.Location = new Point(393, 0);
+            label13.Name = "label13";
+            label13.Size = new Size(124, 75);
+            label13.TabIndex = 11;
+            label13.Text = "Mẫu thí nghiệm";
+            label13.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // label11
+            // 
+            label11.AutoSize = true;
+            label11.BackColor = Color.FromArgb(246, 246, 246);
+            label11.Dock = DockStyle.Fill;
+            label11.Font = new Font("Segoe UI Semibold", 9.75F, FontStyle.Bold);
+            label11.Location = new Point(263, 0);
+            label11.Name = "label11";
+            label11.Size = new Size(124, 75);
+            label11.TabIndex = 10;
+            label11.Text = "Mẫu thực địa";
+            label11.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // btnAddRow
             // 
@@ -431,7 +477,7 @@
             btnAddRow.Location = new Point(10, 85);
             btnAddRow.Margin = new Padding(10);
             btnAddRow.Name = "btnAddRow";
-            btnAddRow.Size = new Size(110, 116);
+            btnAddRow.Size = new Size(45, 116);
             btnAddRow.TabIndex = 1;
             btnAddRow.Text = "+";
             btnAddRow.TextColor = Color.Black;
@@ -444,9 +490,9 @@
             label5.BackColor = Color.FromArgb(246, 246, 246);
             label5.Dock = DockStyle.Fill;
             label5.Font = new Font("Segoe UI Semibold", 9.75F, FontStyle.Bold);
-            label5.Location = new Point(133, 0);
+            label5.Location = new Point(68, 0);
             label5.Name = "label5";
-            label5.Size = new Size(124, 75);
+            label5.Size = new Size(59, 75);
             label5.TabIndex = 0;
             label5.Text = "Tên chỉ tiêu";
             label5.TextAlign = ContentAlignment.MiddleCenter;
@@ -457,9 +503,9 @@
             label6.BackColor = Color.FromArgb(234, 254, 193);
             label6.Dock = DockStyle.Fill;
             label6.Font = new Font("Segoe UI Semibold", 9.75F, FontStyle.Bold);
-            label6.Location = new Point(263, 0);
+            label6.Location = new Point(133, 0);
             label6.Name = "label6";
-            label6.Size = new Size(124, 75);
+            label6.Size = new Size(59, 75);
             label6.TabIndex = 1;
             label6.Text = "Đơn vị";
             label6.TextAlign = ContentAlignment.MiddleCenter;
@@ -470,25 +516,12 @@
             label7.BackColor = Color.FromArgb(246, 246, 246);
             label7.Dock = DockStyle.Fill;
             label7.Font = new Font("Segoe UI Semibold", 9.75F, FontStyle.Bold);
-            label7.Location = new Point(393, 0);
+            label7.Location = new Point(198, 0);
             label7.Name = "label7";
-            label7.Size = new Size(124, 75);
+            label7.Size = new Size(59, 75);
             label7.TabIndex = 2;
             label7.Text = "Thông số";
             label7.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // label8
-            // 
-            label8.AutoSize = true;
-            label8.BackColor = Color.FromArgb(234, 254, 193);
-            label8.Dock = DockStyle.Fill;
-            label8.Font = new Font("Segoe UI Semibold", 9.75F, FontStyle.Bold);
-            label8.Location = new Point(523, 0);
-            label8.Name = "label8";
-            label8.Size = new Size(125, 75);
-            label8.TabIndex = 3;
-            label8.Text = "Kết luận";
-            label8.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // HoSoKhachHangXuLyMau
             // 
@@ -502,7 +535,6 @@
             Load += HoSoKhachHangXuLyMau_Load;
             Resize += HoSoKhachHangXuLyMau_Resize;
             panel1.ResumeLayout(false);
-            panel1.PerformLayout();
             tableLayoutPanel2.ResumeLayout(false);
             panel2.ResumeLayout(false);
             tableLayoutPanel3.ResumeLayout(false);
@@ -544,7 +576,6 @@
         private Label label5;
         private Label label6;
         private Label label7;
-        private Label label8;
         private TableLayoutPanel tableLayoutPanel5;
         private Label label4;
         private ComboBox comboBox1;
@@ -552,5 +583,8 @@
         private Label label9;
         private TextBox textBox4;
         private Label label10;
+        private Label label8;
+        private Label label13;
+        private Label label11;
     }
 }

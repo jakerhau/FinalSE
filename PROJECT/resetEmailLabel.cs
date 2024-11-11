@@ -29,6 +29,7 @@ namespace PROJECT
         {
             var admin = MongoHelper.GetUserCollection();
             var filter = Builders<User>.Filter.Eq("Email", rjTextBox1.Texts);
+            if (!rjTextBox1.Texts.Contains("@") || !rjTextBox1.Texts.Contains(".com")) { MessageBox.Show("Email không hợp lệ"); return; }
             var result = admin.Find(filter).FirstOrDefault();
             if (result == null) { MessageBox.Show("Email không tồn tại"); return; }
             Random random = new Random();        

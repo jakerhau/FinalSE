@@ -30,13 +30,13 @@
         {
             panel2 = new Panel();
             label1 = new Label();
-            IblLink1 = new Label();
             panel1 = new Panel();
             tableLayoutPanel1 = new TableLayoutPanel();
             tableLayoutPanel2 = new TableLayoutPanel();
             textBox1 = new TextBox();
             button1 = new Button();
             panel3 = new Panel();
+            tableLayoutPanel3 = new TableLayoutPanel();
             panel2.SuspendLayout();
             panel1.SuspendLayout();
             tableLayoutPanel1.SuspendLayout();
@@ -52,7 +52,7 @@
             panel2.Location = new Point(2, 2);
             panel2.Margin = new Padding(2);
             panel2.Name = "panel2";
-            panel2.Size = new Size(556, 40);
+            panel2.Size = new Size(771, 59);
             panel2.TabIndex = 0;
             // 
             // label1
@@ -63,21 +63,11 @@
             label1.Location = new Point(0, 0);
             label1.Margin = new Padding(2, 0, 2, 0);
             label1.Name = "label1";
-            label1.Size = new Size(556, 40);
+            label1.Size = new Size(771, 59);
             label1.TabIndex = 0;
             label1.Text = "THÔNG BÁO";
             label1.TextAlign = ContentAlignment.MiddleCenter;
             label1.UseCompatibleTextRendering = true;
-            // 
-            // IblLink1
-            // 
-            IblLink1.AutoSize = true;
-            IblLink1.Location = new Point(16, 14);
-            IblLink1.Margin = new Padding(2, 0, 2, 0);
-            IblLink1.Name = "IblLink1";
-            IblLink1.Size = new Size(179, 15);
-            IblLink1.TabIndex = 3;
-            IblLink1.Text = "Thông báo thay đổi vị trí công ty";
             // 
             // panel1
             // 
@@ -86,7 +76,7 @@
             panel1.Location = new Point(0, 0);
             panel1.Margin = new Padding(2);
             panel1.Name = "panel1";
-            panel1.Size = new Size(560, 270);
+            panel1.Size = new Size(775, 387);
             panel1.TabIndex = 4;
             // 
             // tableLayoutPanel1
@@ -104,7 +94,7 @@
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 16.4444447F));
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 10.7407408F));
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 72.96296F));
-            tableLayoutPanel1.Size = new Size(560, 270);
+            tableLayoutPanel1.Size = new Size(775, 387);
             tableLayoutPanel1.TabIndex = 0;
             // 
             // tableLayoutPanel2
@@ -115,12 +105,12 @@
             tableLayoutPanel2.Controls.Add(textBox1, 0, 0);
             tableLayoutPanel2.Controls.Add(button1, 1, 0);
             tableLayoutPanel2.Dock = DockStyle.Top;
-            tableLayoutPanel2.Location = new Point(3, 47);
+            tableLayoutPanel2.Location = new Point(3, 66);
             tableLayoutPanel2.Name = "tableLayoutPanel2";
             tableLayoutPanel2.RowCount = 1;
             tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
             tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
-            tableLayoutPanel2.Size = new Size(554, 22);
+            tableLayoutPanel2.Size = new Size(769, 22);
             tableLayoutPanel2.TabIndex = 4;
             // 
             // textBox1
@@ -130,41 +120,58 @@
             textBox1.Margin = new Padding(2);
             textBox1.Name = "textBox1";
             textBox1.PlaceholderText = "Tìm kiếm theo tên thông báo...";
-            textBox1.Size = new Size(498, 23);
+            textBox1.Size = new Size(693, 23);
             textBox1.TabIndex = 1;
             textBox1.TextAlign = HorizontalAlignment.Center;
+            textBox1.TextChanged += textBox1_TextChanged;
             // 
             // button1
             // 
             button1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             button1.BackColor = Color.Transparent;
-            button1.Location = new Point(502, 0);
+            button1.Location = new Point(697, 0);
             button1.Margin = new Padding(0);
             button1.Name = "button1";
-            button1.Size = new Size(52, 22);
+            button1.Size = new Size(72, 22);
             button1.TabIndex = 2;
+            button1.Text = "Tìm kiếm";
             button1.UseVisualStyleBackColor = false;
             // 
             // panel3
             // 
             panel3.AutoScroll = true;
-            panel3.Controls.Add(IblLink1);
+            panel3.Controls.Add(tableLayoutPanel3);
             panel3.Dock = DockStyle.Fill;
-            panel3.Location = new Point(2, 74);
+            panel3.Location = new Point(2, 106);
             panel3.Margin = new Padding(2);
             panel3.Name = "panel3";
-            panel3.Size = new Size(556, 194);
+            panel3.Size = new Size(771, 279);
             panel3.TabIndex = 3;
+            // 
+            // tableLayoutPanel3
+            // 
+            tableLayoutPanel3.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            tableLayoutPanel3.AutoSize = true;
+            tableLayoutPanel3.ColumnCount = 1;
+            tableLayoutPanel3.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100F));
+            tableLayoutPanel3.Location = new Point(10, 30);
+            tableLayoutPanel3.Name = "tableLayoutPanel3";
+            tableLayoutPanel3.RowCount = 2;
+            tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
+            tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
+            tableLayoutPanel3.Size = new Size(751, 54);
+            tableLayoutPanel3.TabIndex = 3;
             // 
             // ThongBao
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(560, 270);
+            ClientSize = new Size(775, 387);
             Controls.Add(panel1);
             Margin = new Padding(2);
             Name = "ThongBao";
             Text = "ThongBao";
+            Load += ThongBao_Load;
             Resize += ThongBao_Resize;
             panel2.ResumeLayout(false);
             panel1.ResumeLayout(false);
@@ -179,12 +186,12 @@
         #endregion
         private Panel panel2;
         private Label label1;
-        private Label IblLink1;
         private Panel panel1;
         private TableLayoutPanel tableLayoutPanel1;
         private Panel panel3;
         private TableLayoutPanel tableLayoutPanel2;
         private TextBox textBox1;
         private Button button1;
+        private TableLayoutPanel tableLayoutPanel3;
     }
 }

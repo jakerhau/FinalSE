@@ -75,5 +75,12 @@ namespace PROJECT
 
 
         }
+
+        protected override void OnResize(EventArgs e)
+        {
+            base.OnResize(e);
+            // Kích thước panel thay đổi, vẽ lại
+            Invalidate();
+        }
     }
 }

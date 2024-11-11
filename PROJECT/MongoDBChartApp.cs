@@ -1,6 +1,8 @@
 ﻿using MongoDB.Bson;
 using MongoDB.Driver;
+using PROJECT.Model;
 using System;
+using System.Diagnostics;
 using System.Linq;
 using System.Windows.Forms;
 using System.Windows.Forms.DataVisualization.Charting;
@@ -14,23 +16,20 @@ namespace PROJECT
         private BsonDocument? standardDocument;
         private ListBox sampleListBox;
 
-        private string idSample;
+        public string idSample;
 
-        public MongoDBChartApp()
+        public MongoDBChartApp(string id)
         {
+            this.idSample = id;
             InitializeComponent();
             InitializeMongoDB();
-            LoadStandardDocument();
-
-            // Initialize sampleListBox
-
+            LoadStandardDocument(getId());
             LoadSampleList();
         }
-        public void setId(string idSample)
+        public string getId()
         {
-            this.idSample = idSample;
+            return this.idSample;
         }
-
         private void InitializeMongoDB()
         {
             var client = new MongoClient("mongodb+srv://nxuandao1:52200294@cluster0.x11gh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0");
@@ -39,38 +38,70 @@ namespace PROJECT
             collectionSample = database.GetCollection<BsonDocument>("Sample");
         }
 
-        private void LoadStandardDocument()
+        private void LoadStandardDocument(string id)
         {
-            standardDocument = collectionStandard?.Find(new BsonDocument()).FirstOrDefault();
+            //standardDocument = collectionStandard?.Find(new BsonDocument()).FirstOrDefault();
+            var sampleCol = MongoHelper.GetSampleCollection();
+            var statusCol = MongoHelper.GetStatusCollection();
+            var compareCol = MongoHelper.GetDatabase().GetCollection<CompareStandard>("CompareStandard");
+            var sample = sampleCol.AsQueryable()
+                .FirstOrDefault(s => s.Id == ObjectId.Parse(this.idSample));
+            if (sample != null)
+            {
+                var status = statusCol.AsQueryable()
+                    .FirstOrDefault(s => s.Id == sample.IdStatus);
+                if (status != null)
+                {
+                    var compareStandard = compareCol.AsQueryable()
+                    .FirstOrDefault(cs => cs.Id == status.IdCompare);
+                    if (compareStandard != null)
+                    {
+                        standardDocument = compareStandard.ToBsonDocument();
+                        Debug.WriteLine(standardDocument);
+                    }
+                }
+            }
         }
 
         private void LoadSampleList()
         {
-            var sampleDocuments = collectionSample?.Find(new BsonDocument()).ToList();
-            if (sampleDocuments != null)
-            {
-                foreach (var sample in sampleDocuments)
-                {
-                    string sampleName = sample.Contains("_id") ? sample["_id"].AsObjectId.ToString() : "Unnamed Sample";
-                    sampleListBox.Items.Add(sampleName);
-                }
-                sampleListBox.SelectedIndexChanged += SampleListBox_SelectedIndexChanged;
-            }
+            //var sampleDocuments = collectionSample?.Find(new BsonDocument()).ToList();
+            //if (sampleDocuments != null)
+            //{
+            //    foreach (var sample in sampleDocuments)
+            //    {
+            //        string sampleName = sample.Contains("_id") ? sample["_id"].AsObjectId.ToString() : "Unnamed Sample";
+            //        sampleListBox.Items.Add(sampleName);
+            //    }
+            //tìm sample dựa vào idSample
+            var sampleCol = MongoHelper.GetSampleCollection();
+            var sample = sampleCol.AsQueryable()
+                .FirstOrDefault(s => s.Id == ObjectId.Parse(this.idSample));
+            if (sample != null)
+                sampleListBox.Items.Add(sample.Id);
+            sampleListBox.SelectedIndexChanged += SampleListBox_SelectedIndexChanged;
+            //}
         }
 
 
         private void SampleListBox_SelectedIndexChanged(object sender, EventArgs e)
         {
             chart1.Series.Clear();
-
-            if (ObjectId.TryParse(sampleListBox.SelectedItem.ToString(), out ObjectId selectedSampleId))
+            try
             {
-                var sampleDocument = collectionSample?.Find(new BsonDocument { { "_id", selectedSampleId } }).FirstOrDefault();
-
-                if (standardDocument != null && sampleDocument != null)
+                if (ObjectId.TryParse(sampleListBox.SelectedItem.ToString(), out ObjectId selectedSampleId))
                 {
-                    PlotComparisonChart(standardDocument, sampleDocument);
+                    var sampleDocument = collectionSample?.Find(new BsonDocument { { "_id", selectedSampleId } }).FirstOrDefault();
+
+                    if (standardDocument != null && sampleDocument != null)
+                    {
+                        PlotComparisonChart(standardDocument, sampleDocument);
+                    }
                 }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
             }
         }
 
@@ -171,6 +202,6 @@ namespace PROJECT
             chart1.Legends[0].Docking = Docking.Top;
 
             chart1.ChartAreas[0].AxisX.IsMarginVisible = true;
-        }
+        }   
     }
 }

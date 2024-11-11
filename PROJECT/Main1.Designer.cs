@@ -45,6 +45,7 @@
             panelItem = new Panel();
             panel5 = new Panel();
             tableLayoutPanel4 = new TableLayoutPanel();
+            customPanel1 = new CustomPanel();
             label1 = new Label();
             paneDesktop = new Panel();
             panel1.SuspendLayout();
@@ -57,6 +58,7 @@
             tableLayoutPanel3.SuspendLayout();
             panel5.SuspendLayout();
             tableLayoutPanel4.SuspendLayout();
+            customPanel1.SuspendLayout();
             SuspendLayout();
             // 
             // panel1
@@ -148,6 +150,7 @@
             // rjButton3
             // 
             rjButton3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+            rjButton3.AutoSize = true;
             rjButton3.BackColor = Color.Transparent;
             rjButton3.BackgroundColor = Color.Transparent;
             rjButton3.BorderColor = Color.White;
@@ -157,6 +160,8 @@
             rjButton3.FlatStyle = FlatStyle.Flat;
             rjButton3.Font = new Font("Segoe UI Semibold", 14.25F, FontStyle.Bold | FontStyle.Italic);
             rjButton3.ForeColor = Color.Black;
+            rjButton3.Image = (Image)resources.GetObject("rjButton3.Image");
+            rjButton3.ImageAlign = ContentAlignment.MiddleLeft;
             rjButton3.Location = new Point(645, 3);
             rjButton3.Name = "rjButton3";
             rjButton3.Size = new Size(127, 97);
@@ -304,7 +309,7 @@
             // 
             tableLayoutPanel4.ColumnCount = 1;
             tableLayoutPanel4.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
-            tableLayoutPanel4.Controls.Add(label1, 0, 0);
+            tableLayoutPanel4.Controls.Add(customPanel1, 0, 0);
             tableLayoutPanel4.Dock = DockStyle.Top;
             tableLayoutPanel4.Location = new Point(20, 20);
             tableLayoutPanel4.Name = "tableLayoutPanel4";
@@ -314,15 +319,30 @@
             tableLayoutPanel4.Size = new Size(177, 87);
             tableLayoutPanel4.TabIndex = 0;
             // 
+            // customPanel1
+            // 
+            customPanel1.BackColor = Color.White;
+            customPanel1.BorderRadius = 30;
+            customPanel1.Controls.Add(label1);
+            customPanel1.Dock = DockStyle.Fill;
+            customPanel1.ForeColor = Color.Black;
+            customPanel1.GradientAngle = 90F;
+            customPanel1.GradientBottomColor = Color.CadetBlue;
+            customPanel1.GradientTopColor = Color.DodgerBlue;
+            customPanel1.Location = new Point(3, 3);
+            customPanel1.Name = "customPanel1";
+            customPanel1.Size = new Size(171, 37);
+            customPanel1.TabIndex = 0;
+            // 
             // label1
             // 
             label1.BackColor = Color.FromArgb(224, 224, 224);
             label1.Dock = DockStyle.Fill;
             label1.Font = new Font("Segoe UI Semibold", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(3, 0);
+            label1.Location = new Point(0, 0);
             label1.Name = "label1";
-            label1.Size = new Size(171, 43);
-            label1.TabIndex = 3;
+            label1.Size = new Size(171, 37);
+            label1.TabIndex = 4;
             label1.Text = "Username";
             label1.TextAlign = ContentAlignment.MiddleCenter;
             // 
@@ -344,9 +364,10 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1006, 516);
             Controls.Add(panel1);
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Margin = new Padding(2);
             Name = "Main1";
-            Text = "Main1";
+            Text = "E.lab";
             FormClosing += Main1_FormClosing;
             Load += Main1_Load;
             Resize += Main1_Resize;
@@ -357,10 +378,12 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             panel3.ResumeLayout(false);
             tableLayoutPanel2.ResumeLayout(false);
+            tableLayoutPanel2.PerformLayout();
             panel4.ResumeLayout(false);
             tableLayoutPanel3.ResumeLayout(false);
             panel5.ResumeLayout(false);
             tableLayoutPanel4.ResumeLayout(false);
+            customPanel1.ResumeLayout(false);
             ResumeLayout(false);
         }
 
@@ -382,12 +405,13 @@
         private Panel panelItem;
         private PictureBox pictureBox1;
         private CustomControls.RJControls.RJButton button1j;
-        private CustomControls.RJControls.RJButton rjButton3;
         private CustomControls.RJControls.RJButton rjButton4;
         private CustomControls.RJControls.RJButton rjButton1;
         private CustomControls.RJControls.RJButton rjButton2;
         private Panel panel5;
         private TableLayoutPanel tableLayoutPanel4;
+        private CustomPanel customPanel1;
         private Label label1;
+        private CustomControls.RJControls.RJButton rjButton3;
     }
 }

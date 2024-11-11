@@ -36,15 +36,15 @@ namespace PROJECT.FormControl
             DataGridViewCellStyle dataGridViewCellStyle3 = new DataGridViewCellStyle();
             DataGridViewCellStyle dataGridViewCellStyle4 = new DataGridViewCellStyle();
             dataGridView1 = new DataGridView();
+            MaDoanhNghiep = new DataGridViewTextBoxColumn();
+            TenDoanhNghiep = new DataGridViewTextBoxColumn();
+            TinhTrangHoSo = new DataGridViewTextBoxColumn();
             panel1 = new Panel();
             tableLayoutPanel2 = new TableLayoutPanel();
             textBox1 = new TextBox();
             button1 = new Button();
             tableLayoutPanel1 = new TableLayoutPanel();
             panel2 = new Panel();
-            MaDoanhNghiep = new DataGridViewTextBoxColumn();
-            TenDoanhNghiep = new DataGridViewTextBoxColumn();
-            TinhTrangHoSo = new DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             panel1.SuspendLayout();
             tableLayoutPanel2.SuspendLayout();
@@ -82,7 +82,7 @@ namespace PROJECT.FormControl
             dataGridView1.DefaultCellStyle = dataGridViewCellStyle2;
             dataGridView1.Dock = DockStyle.Fill;
             dataGridView1.EnableHeadersVisualStyles = false;
-            dataGridView1.Location = new Point(0, 31);
+            dataGridView1.Location = new Point(0, 45);
             dataGridView1.Margin = new Padding(0);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.ReadOnly = true;
@@ -99,87 +99,12 @@ namespace PROJECT.FormControl
             dataGridView1.RowHeadersWidth = 25;
             dataGridViewCellStyle4.Alignment = DataGridViewContentAlignment.MiddleCenter;
             dataGridView1.RowsDefaultCellStyle = dataGridViewCellStyle4;
-            dataGridView1.ScrollBars = ScrollBars.Horizontal;
             dataGridView1.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
-            dataGridView1.Size = new Size(560, 239);
+            dataGridView1.Size = new Size(758, 352);
             dataGridView1.TabIndex = 0;
             dataGridView1.CellContentClick += dataGridView1_CellContentClick;
             dataGridView1.CellDoubleClick += dataGridView1_CellDoubleClick;
             dataGridView1.CellFormatting += dataGridView1_CellFormatting;
-            // 
-            // panel1
-            // 
-            panel1.Controls.Add(tableLayoutPanel2);
-            panel1.Dock = DockStyle.Fill;
-            panel1.Location = new Point(2, 2);
-            panel1.Margin = new Padding(2);
-            panel1.Name = "panel1";
-            panel1.Size = new Size(556, 27);
-            panel1.TabIndex = 0;
-            // 
-            // tableLayoutPanel2
-            // 
-            tableLayoutPanel2.ColumnCount = 2;
-            tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 90.70632F));
-            tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 9.29368F));
-            tableLayoutPanel2.Controls.Add(textBox1, 0, 0);
-            tableLayoutPanel2.Controls.Add(button1, 1, 0);
-            tableLayoutPanel2.Dock = DockStyle.Top;
-            tableLayoutPanel2.Location = new Point(0, 0);
-            tableLayoutPanel2.Name = "tableLayoutPanel2";
-            tableLayoutPanel2.RowCount = 1;
-            tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
-            tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
-            tableLayoutPanel2.Size = new Size(556, 27);
-            tableLayoutPanel2.TabIndex = 3;
-            // 
-            // textBox1
-            // 
-            textBox1.Dock = DockStyle.Fill;
-            textBox1.Location = new Point(2, 2);
-            textBox1.Margin = new Padding(2);
-            textBox1.Name = "textBox1";
-            textBox1.PlaceholderText = "Mã doanh nghiệp, tên doanh nghiệp...";
-            textBox1.Size = new Size(500, 23);
-            textBox1.TabIndex = 1;
-            textBox1.TextAlign = HorizontalAlignment.Center;
-            textBox1.TextChanged += textBox1_TextChanged;
-            // 
-            // button1
-            // 
-            button1.BackColor = Color.Transparent;
-            button1.Dock = DockStyle.Fill;
-            button1.Location = new Point(504, 2);
-            button1.Margin = new Padding(0, 2, 0, 2);
-            button1.Name = "button1";
-            button1.Size = new Size(52, 23);
-            button1.TabIndex = 2;
-            button1.UseVisualStyleBackColor = false;
-            // 
-            // tableLayoutPanel1
-            // 
-            tableLayoutPanel1.ColumnCount = 1;
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
-            tableLayoutPanel1.Controls.Add(dataGridView1, 0, 1);
-            tableLayoutPanel1.Controls.Add(panel1, 0, 0);
-            tableLayoutPanel1.Dock = DockStyle.Fill;
-            tableLayoutPanel1.Location = new Point(0, 0);
-            tableLayoutPanel1.Margin = new Padding(2);
-            tableLayoutPanel1.Name = "tableLayoutPanel1";
-            tableLayoutPanel1.RowCount = 2;
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 11.5555553F));
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 88.44444F));
-            tableLayoutPanel1.Size = new Size(560, 270);
-            tableLayoutPanel1.TabIndex = 1;
-            // 
-            // panel2
-            // 
-            panel2.Dock = DockStyle.Fill;
-            panel2.Location = new Point(0, 0);
-            panel2.Margin = new Padding(2);
-            panel2.Name = "panel2";
-            panel2.Size = new Size(560, 270);
-            panel2.TabIndex = 2;
             // 
             // MaDoanhNghiep
             // 
@@ -205,11 +130,88 @@ namespace PROJECT.FormControl
             TinhTrangHoSo.Name = "TinhTrangHoSo";
             TinhTrangHoSo.ReadOnly = true;
             // 
+            // panel1
+            // 
+            panel1.BackColor = Color.White;
+            panel1.Controls.Add(tableLayoutPanel2);
+            panel1.Dock = DockStyle.Fill;
+            panel1.Location = new Point(2, 2);
+            panel1.Margin = new Padding(2);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(754, 41);
+            panel1.TabIndex = 0;
+            // 
+            // tableLayoutPanel2
+            // 
+            tableLayoutPanel2.BackColor = Color.White;
+            tableLayoutPanel2.ColumnCount = 2;
+            tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 90.70632F));
+            tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 9.29368F));
+            tableLayoutPanel2.Controls.Add(textBox1, 0, 0);
+            tableLayoutPanel2.Controls.Add(button1, 1, 0);
+            tableLayoutPanel2.Dock = DockStyle.Top;
+            tableLayoutPanel2.Location = new Point(0, 0);
+            tableLayoutPanel2.Name = "tableLayoutPanel2";
+            tableLayoutPanel2.RowCount = 1;
+            tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
+            tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
+            tableLayoutPanel2.Size = new Size(754, 27);
+            tableLayoutPanel2.TabIndex = 3;
+            // 
+            // textBox1
+            // 
+            textBox1.Dock = DockStyle.Fill;
+            textBox1.Location = new Point(2, 2);
+            textBox1.Margin = new Padding(2);
+            textBox1.Name = "textBox1";
+            textBox1.PlaceholderText = "Mã doanh nghiệp, tên doanh nghiệp...";
+            textBox1.Size = new Size(679, 23);
+            textBox1.TabIndex = 1;
+            textBox1.TextAlign = HorizontalAlignment.Center;
+            textBox1.TextChanged += textBox1_TextChanged;
+            // 
+            // button1
+            // 
+            button1.BackColor = Color.Transparent;
+            button1.Dock = DockStyle.Fill;
+            button1.Location = new Point(683, 2);
+            button1.Margin = new Padding(0, 2, 0, 2);
+            button1.Name = "button1";
+            button1.Size = new Size(71, 23);
+            button1.TabIndex = 2;
+            button1.Text = "Tìm kiếm";
+            button1.UseVisualStyleBackColor = false;
+            // 
+            // tableLayoutPanel1
+            // 
+            tableLayoutPanel1.ColumnCount = 1;
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
+            tableLayoutPanel1.Controls.Add(dataGridView1, 0, 1);
+            tableLayoutPanel1.Controls.Add(panel1, 0, 0);
+            tableLayoutPanel1.Dock = DockStyle.Fill;
+            tableLayoutPanel1.Location = new Point(0, 0);
+            tableLayoutPanel1.Margin = new Padding(2);
+            tableLayoutPanel1.Name = "tableLayoutPanel1";
+            tableLayoutPanel1.RowCount = 2;
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 11.5555553F));
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 88.44444F));
+            tableLayoutPanel1.Size = new Size(758, 397);
+            tableLayoutPanel1.TabIndex = 1;
+            // 
+            // panel2
+            // 
+            panel2.Dock = DockStyle.Fill;
+            panel2.Location = new Point(0, 0);
+            panel2.Margin = new Padding(2);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(758, 397);
+            panel2.TabIndex = 2;
+            // 
             // HoSoKHDKDN
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(560, 270);
+            ClientSize = new Size(758, 397);
             Controls.Add(tableLayoutPanel1);
             Controls.Add(panel2);
             Margin = new Padding(2);

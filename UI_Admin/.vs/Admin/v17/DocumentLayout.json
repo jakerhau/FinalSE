@@ -1,0 +1,591 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\UI\\Admin\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{80C18674-4137-48B5-92FA-F05494370417}|Admin\\Admin.csproj|d:\\ui\\admin\\admin\\formcontrols\\adduser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80C18674-4137-48B5-92FA-F05494370417}|Admin\\Admin.csproj|solutionrelative:admin\\formcontrols\\adduser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80C18674-4137-48B5-92FA-F05494370417}|Admin\\Admin.csproj|D:\\UI\\Admin\\admin\\formcontrols\\adduser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{80C18674-4137-48B5-92FA-F05494370417}|Admin\\Admin.csproj|solutionrelative:admin\\formcontrols\\adduser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80C18674-4137-48B5-92FA-F05494370417}|Admin\\Admin.csproj|D:\\UI\\Admin\\admin\\formcontrols\\changepwdform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{80C18674-4137-48B5-92FA-F05494370417}|Admin\\Admin.csproj|solutionrelative:admin\\formcontrols\\changepwdform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80C18674-4137-48B5-92FA-F05494370417}|Admin\\Admin.csproj|d:\\ui\\admin\\admin\\formcontrols\\adduser.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80C18674-4137-48B5-92FA-F05494370417}|Admin\\Admin.csproj|solutionrelative:admin\\formcontrols\\adduser.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80C18674-4137-48B5-92FA-F05494370417}|Admin\\Admin.csproj|D:\\UI\\Admin\\admin\\formcontrols\\resetemaillabel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{80C18674-4137-48B5-92FA-F05494370417}|Admin\\Admin.csproj|solutionrelative:admin\\formcontrols\\resetemaillabel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80C18674-4137-48B5-92FA-F05494370417}|Admin\\Admin.csproj|D:\\UI\\Admin\\admin\\formcontrols\\resetpwdlabel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{80C18674-4137-48B5-92FA-F05494370417}|Admin\\Admin.csproj|solutionrelative:admin\\formcontrols\\resetpwdlabel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80C18674-4137-48B5-92FA-F05494370417}|Admin\\Admin.csproj|D:\\UI\\Admin\\admin\\formcontrols\\userdetailsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{80C18674-4137-48B5-92FA-F05494370417}|Admin\\Admin.csproj|solutionrelative:admin\\formcontrols\\userdetailsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80C18674-4137-48B5-92FA-F05494370417}|Admin\\Admin.csproj|D:\\UI\\Admin\\admin\\formcontrols\\userlistform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{80C18674-4137-48B5-92FA-F05494370417}|Admin\\Admin.csproj|solutionrelative:admin\\formcontrols\\userlistform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80C18674-4137-48B5-92FA-F05494370417}|Admin\\Admin.csproj|D:\\UI\\Admin\\admin\\formcontrols\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{80C18674-4137-48B5-92FA-F05494370417}|Admin\\Admin.csproj|solutionrelative:admin\\formcontrols\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80C18674-4137-48B5-92FA-F05494370417}|Admin\\Admin.csproj|D:\\UI\\Admin\\admin\\formcontrols\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{80C18674-4137-48B5-92FA-F05494370417}|Admin\\Admin.csproj|solutionrelative:admin\\formcontrols\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80C18674-4137-48B5-92FA-F05494370417}|Admin\\Admin.csproj|D:\\UI\\Admin\\admin\\formcontrols\\historyform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{80C18674-4137-48B5-92FA-F05494370417}|Admin\\Admin.csproj|solutionrelative:admin\\formcontrols\\historyform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80C18674-4137-48B5-92FA-F05494370417}|Admin\\Admin.csproj|D:\\UI\\Admin\\admin\\formcontrols\\detailsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{80C18674-4137-48B5-92FA-F05494370417}|Admin\\Admin.csproj|solutionrelative:admin\\formcontrols\\detailsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80C18674-4137-48B5-92FA-F05494370417}|Admin\\Admin.csproj|D:\\UI\\Admin\\admin\\formcontrols\\forgotpwd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{80C18674-4137-48B5-92FA-F05494370417}|Admin\\Admin.csproj|solutionrelative:admin\\formcontrols\\forgotpwd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80C18674-4137-48B5-92FA-F05494370417}|Admin\\Admin.csproj|D:\\UI\\Admin\\admin\\formcontrols\\checkemaillabel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{80C18674-4137-48B5-92FA-F05494370417}|Admin\\Admin.csproj|solutionrelative:admin\\formcontrols\\checkemaillabel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80C18674-4137-48B5-92FA-F05494370417}|Admin\\Admin.csproj|d:\\ui\\admin\\admin\\formcontrols\\custompanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80C18674-4137-48B5-92FA-F05494370417}|Admin\\Admin.csproj|solutionrelative:admin\\formcontrols\\custompanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80C18674-4137-48B5-92FA-F05494370417}|Admin\\Admin.csproj|d:\\ui\\admin\\admin\\formcontrols\\historyform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80C18674-4137-48B5-92FA-F05494370417}|Admin\\Admin.csproj|solutionrelative:admin\\formcontrols\\historyform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80C18674-4137-48B5-92FA-F05494370417}|Admin\\Admin.csproj|d:\\ui\\admin\\admin\\models\\simpleaesencryption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80C18674-4137-48B5-92FA-F05494370417}|Admin\\Admin.csproj|solutionrelative:admin\\models\\simpleaesencryption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80C18674-4137-48B5-92FA-F05494370417}|Admin\\Admin.csproj|d:\\ui\\admin\\admin\\formcontrols\\resetpwdlabel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80C18674-4137-48B5-92FA-F05494370417}|Admin\\Admin.csproj|solutionrelative:admin\\formcontrols\\resetpwdlabel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80C18674-4137-48B5-92FA-F05494370417}|Admin\\Admin.csproj|d:\\ui\\admin\\admin\\formcontrols\\userlistform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80C18674-4137-48B5-92FA-F05494370417}|Admin\\Admin.csproj|solutionrelative:admin\\formcontrols\\userlistform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80C18674-4137-48B5-92FA-F05494370417}|Admin\\Admin.csproj|d:\\ui\\admin\\admin\\formcontrols\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80C18674-4137-48B5-92FA-F05494370417}|Admin\\Admin.csproj|solutionrelative:admin\\formcontrols\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80C18674-4137-48B5-92FA-F05494370417}|Admin\\Admin.csproj|d:\\ui\\admin\\admin\\formcontrols\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80C18674-4137-48B5-92FA-F05494370417}|Admin\\Admin.csproj|solutionrelative:admin\\formcontrols\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80C18674-4137-48B5-92FA-F05494370417}|Admin\\Admin.csproj|d:\\ui\\admin\\admin\\formcontrols\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80C18674-4137-48B5-92FA-F05494370417}|Admin\\Admin.csproj|solutionrelative:admin\\formcontrols\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80C18674-4137-48B5-92FA-F05494370417}|Admin\\Admin.csproj|d:\\ui\\admin\\admin\\formcontrols\\changepwdform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80C18674-4137-48B5-92FA-F05494370417}|Admin\\Admin.csproj|solutionrelative:admin\\formcontrols\\changepwdform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80C18674-4137-48B5-92FA-F05494370417}|Admin\\Admin.csproj|d:\\ui\\admin\\admin\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80C18674-4137-48B5-92FA-F05494370417}|Admin\\Admin.csproj|solutionrelative:admin\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80C18674-4137-48B5-92FA-F05494370417}|Admin\\Admin.csproj|d:\\ui\\admin\\admin\\models\\adminmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80C18674-4137-48B5-92FA-F05494370417}|Admin\\Admin.csproj|solutionrelative:admin\\models\\adminmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80C18674-4137-48B5-92FA-F05494370417}|Admin\\Admin.csproj|d:\\ui\\admin\\admin\\formcontrols\\userdetailsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80C18674-4137-48B5-92FA-F05494370417}|Admin\\Admin.csproj|solutionrelative:admin\\formcontrols\\userdetailsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80C18674-4137-48B5-92FA-F05494370417}|Admin\\Admin.csproj|d:\\ui\\admin\\admin\\formcontrols\\detailsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80C18674-4137-48B5-92FA-F05494370417}|Admin\\Admin.csproj|solutionrelative:admin\\formcontrols\\detailsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80C18674-4137-48B5-92FA-F05494370417}|Admin\\Admin.csproj|d:\\ui\\admin\\admin\\formcontrols\\changepwdform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80C18674-4137-48B5-92FA-F05494370417}|Admin\\Admin.csproj|solutionrelative:admin\\formcontrols\\changepwdform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80C18674-4137-48B5-92FA-F05494370417}|Admin\\Admin.csproj|d:\\ui\\admin\\admin\\formcontrols\\detailsform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80C18674-4137-48B5-92FA-F05494370417}|Admin\\Admin.csproj|solutionrelative:admin\\formcontrols\\detailsform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80C18674-4137-48B5-92FA-F05494370417}|Admin\\Admin.csproj|d:\\ui\\admin\\admin\\formcontrols\\resetemaillabel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80C18674-4137-48B5-92FA-F05494370417}|Admin\\Admin.csproj|solutionrelative:admin\\formcontrols\\resetemaillabel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80C18674-4137-48B5-92FA-F05494370417}|Admin\\Admin.csproj|d:\\ui\\admin\\admin\\formcontrols\\checkemaillabel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80C18674-4137-48B5-92FA-F05494370417}|Admin\\Admin.csproj|solutionrelative:admin\\formcontrols\\checkemaillabel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80C18674-4137-48B5-92FA-F05494370417}|Admin\\Admin.csproj|d:\\ui\\admin\\admin\\models\\mongohelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80C18674-4137-48B5-92FA-F05494370417}|Admin\\Admin.csproj|solutionrelative:admin\\models\\mongohelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{80C18674-4137-48B5-92FA-F05494370417}|Admin\\Admin.csproj|d:\\ui\\admin\\admin\\formcontrols\\forgotpwd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{80C18674-4137-48B5-92FA-F05494370417}|Admin\\Admin.csproj|solutionrelative:admin\\formcontrols\\forgotpwd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 369,
+          "SelectedChildIndex": 14,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AddUser.Designer.cs",
+              "DocumentMoniker": "D:\\UI\\Admin\\Admin\\FormControls\\AddUser.Designer.cs",
+              "RelativeDocumentMoniker": "Admin\\FormControls\\AddUser.Designer.cs",
+              "ToolTip": "D:\\UI\\Admin\\Admin\\FormControls\\AddUser.Designer.cs",
+              "RelativeToolTip": "Admin\\FormControls\\AddUser.Designer.cs",
+              "ViewState": "AgIAAMcAAAAAAAAAAAASwNIAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T15:10:21.13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "SimpleAesEncryption.cs",
+              "DocumentMoniker": "D:\\UI\\Admin\\Admin\\Models\\SimpleAesEncryption.cs",
+              "RelativeDocumentMoniker": "Admin\\Models\\SimpleAesEncryption.cs",
+              "ToolTip": "D:\\UI\\Admin\\Admin\\Models\\SimpleAesEncryption.cs",
+              "RelativeToolTip": "Admin\\Models\\SimpleAesEncryption.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T11:42:54.005Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ChangePwdForm.cs",
+              "DocumentMoniker": "D:\\UI\\Admin\\Admin\\FormControls\\ChangePwdForm.cs",
+              "RelativeDocumentMoniker": "Admin\\FormControls\\ChangePwdForm.cs",
+              "ToolTip": "D:\\UI\\Admin\\Admin\\FormControls\\ChangePwdForm.cs",
+              "RelativeToolTip": "Admin\\FormControls\\ChangePwdForm.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowDgAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T11:38:01.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "MainForm.Designer.cs",
+              "DocumentMoniker": "D:\\UI\\Admin\\Admin\\FormControls\\MainForm.Designer.cs",
+              "RelativeDocumentMoniker": "Admin\\FormControls\\MainForm.Designer.cs",
+              "ToolTip": "D:\\UI\\Admin\\Admin\\FormControls\\MainForm.Designer.cs",
+              "RelativeToolTip": "Admin\\FormControls\\MainForm.Designer.cs",
+              "ViewState": "AgIAAEYBAAAAAAAAAAASwFMBAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T09:20:02.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "userListForm.cs",
+              "DocumentMoniker": "D:\\UI\\Admin\\Admin\\FormControls\\userListForm.cs",
+              "RelativeDocumentMoniker": "Admin\\FormControls\\userListForm.cs",
+              "ToolTip": "D:\\UI\\Admin\\Admin\\FormControls\\userListForm.cs",
+              "RelativeToolTip": "Admin\\FormControls\\userListForm.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAswDQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T09:19:33.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CustomPanel.cs",
+              "DocumentMoniker": "D:\\UI\\Admin\\Admin\\FormControls\\CustomPanel.cs",
+              "RelativeDocumentMoniker": "Admin\\FormControls\\CustomPanel.cs",
+              "ToolTip": "D:\\UI\\Admin\\Admin\\FormControls\\CustomPanel.cs",
+              "RelativeToolTip": "Admin\\FormControls\\CustomPanel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T07:26:36.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\UI\\Admin\\Admin\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Admin\\Models\\User.cs",
+              "ToolTip": "D:\\UI\\Admin\\Admin\\Models\\User.cs",
+              "RelativeToolTip": "Admin\\Models\\User.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAYwCYAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T15:43:42.328Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "D:\\UI\\Admin\\Admin\\FormControls\\MainForm.cs",
+              "RelativeDocumentMoniker": "Admin\\FormControls\\MainForm.cs",
+              "ToolTip": "D:\\UI\\Admin\\Admin\\FormControls\\MainForm.cs",
+              "RelativeToolTip": "Admin\\FormControls\\MainForm.cs",
+              "ViewState": "AgIAAL8AAAAAAAAAAIA6wMoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T15:35:52.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "LoginForm.cs",
+              "DocumentMoniker": "D:\\UI\\Admin\\Admin\\FormControls\\LoginForm.cs",
+              "RelativeDocumentMoniker": "Admin\\FormControls\\LoginForm.cs",
+              "ToolTip": "D:\\UI\\Admin\\Admin\\FormControls\\LoginForm.cs",
+              "RelativeToolTip": "Admin\\FormControls\\LoginForm.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAAFYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T15:35:52.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "DetailsForm.cs",
+              "DocumentMoniker": "D:\\UI\\Admin\\Admin\\FormControls\\DetailsForm.cs",
+              "RelativeDocumentMoniker": "Admin\\FormControls\\DetailsForm.cs",
+              "ToolTip": "D:\\UI\\Admin\\Admin\\FormControls\\DetailsForm.cs",
+              "RelativeToolTip": "Admin\\FormControls\\DetailsForm.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAwBIAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T15:35:52.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AddUser.cs",
+              "DocumentMoniker": "D:\\UI\\Admin\\Admin\\FormControls\\AddUser.cs",
+              "RelativeDocumentMoniker": "Admin\\FormControls\\AddUser.cs",
+              "ToolTip": "D:\\UI\\Admin\\Admin\\FormControls\\AddUser.cs",
+              "RelativeToolTip": "Admin\\FormControls\\AddUser.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAUwEwAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T15:35:51.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "UserDetailsForm.cs",
+              "DocumentMoniker": "D:\\UI\\Admin\\Admin\\FormControls\\UserDetailsForm.cs",
+              "RelativeDocumentMoniker": "Admin\\FormControls\\UserDetailsForm.cs",
+              "ToolTip": "D:\\UI\\Admin\\Admin\\FormControls\\UserDetailsForm.cs",
+              "RelativeToolTip": "Admin\\FormControls\\UserDetailsForm.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAIA6wEcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T15:35:51.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ChangePwdForm.Designer.cs",
+              "DocumentMoniker": "D:\\UI\\Admin\\Admin\\FormControls\\ChangePwdForm.Designer.cs",
+              "RelativeDocumentMoniker": "Admin\\FormControls\\ChangePwdForm.Designer.cs",
+              "ToolTip": "D:\\UI\\Admin\\Admin\\FormControls\\ChangePwdForm.Designer.cs",
+              "RelativeToolTip": "Admin\\FormControls\\ChangePwdForm.Designer.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAIBJwBYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T15:35:52.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "HistoryForm.cs",
+              "DocumentMoniker": "D:\\UI\\Admin\\Admin\\FormControls\\HistoryForm.cs",
+              "RelativeDocumentMoniker": "Admin\\FormControls\\HistoryForm.cs",
+              "ToolTip": "D:\\UI\\Admin\\Admin\\FormControls\\HistoryForm.cs",
+              "RelativeToolTip": "Admin\\FormControls\\HistoryForm.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowCYAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T15:35:52.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "DetailsForm.Designer.cs",
+              "DocumentMoniker": "D:\\UI\\Admin\\Admin\\FormControls\\DetailsForm.Designer.cs",
+              "RelativeDocumentMoniker": "Admin\\FormControls\\DetailsForm.Designer.cs",
+              "ToolTip": "D:\\UI\\Admin\\Admin\\FormControls\\DetailsForm.Designer.cs",
+              "RelativeToolTip": "Admin\\FormControls\\DetailsForm.Designer.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAIBJwBYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T15:35:52.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "resetEmailLabel.cs",
+              "DocumentMoniker": "D:\\UI\\Admin\\Admin\\FormControls\\resetEmailLabel.cs",
+              "RelativeDocumentMoniker": "Admin\\FormControls\\resetEmailLabel.cs",
+              "ToolTip": "D:\\UI\\Admin\\Admin\\FormControls\\resetEmailLabel.cs",
+              "RelativeToolTip": "Admin\\FormControls\\resetEmailLabel.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAIBJwCIAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T15:35:52.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "checkEmailLabel.cs",
+              "DocumentMoniker": "D:\\UI\\Admin\\Admin\\FormControls\\checkEmailLabel.cs",
+              "RelativeDocumentMoniker": "Admin\\FormControls\\checkEmailLabel.cs",
+              "ToolTip": "D:\\UI\\Admin\\Admin\\FormControls\\checkEmailLabel.cs",
+              "RelativeToolTip": "Admin\\FormControls\\checkEmailLabel.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAwwCoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T15:35:52.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "resetPwdLabel.cs",
+              "DocumentMoniker": "D:\\UI\\Admin\\Admin\\FormControls\\resetPwdLabel.cs",
+              "RelativeDocumentMoniker": "Admin\\FormControls\\resetPwdLabel.cs",
+              "ToolTip": "D:\\UI\\Admin\\Admin\\FormControls\\resetPwdLabel.cs",
+              "RelativeToolTip": "Admin\\FormControls\\resetPwdLabel.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAADwvyQAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T15:35:52.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "MongoHelper.cs",
+              "DocumentMoniker": "D:\\UI\\Admin\\Admin\\Models\\MongoHelper.cs",
+              "RelativeDocumentMoniker": "Admin\\Models\\MongoHelper.cs",
+              "ToolTip": "D:\\UI\\Admin\\Admin\\Models\\MongoHelper.cs",
+              "RelativeToolTip": "Admin\\Models\\MongoHelper.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowCQAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T15:35:52.491Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AdminModel.cs",
+              "DocumentMoniker": "D:\\UI\\Admin\\Admin\\Models\\AdminModel.cs",
+              "RelativeDocumentMoniker": "Admin\\Models\\AdminModel.cs",
+              "ToolTip": "D:\\UI\\Admin\\Admin\\Models\\AdminModel.cs",
+              "RelativeToolTip": "Admin\\Models\\AdminModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T15:35:52.495Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ForgotPwd.cs",
+              "DocumentMoniker": "D:\\UI\\Admin\\Admin\\FormControls\\ForgotPwd.cs",
+              "RelativeDocumentMoniker": "Admin\\FormControls\\ForgotPwd.cs",
+              "ToolTip": "D:\\UI\\Admin\\Admin\\FormControls\\ForgotPwd.cs",
+              "RelativeToolTip": "Admin\\FormControls\\ForgotPwd.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAwwA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T15:35:52.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "resetEmailLabel.cs [Design]",
+              "DocumentMoniker": "D:\\UI\\Admin\\Admin\\FormControls\\resetEmailLabel.cs",
+              "RelativeDocumentMoniker": "Admin\\FormControls\\resetEmailLabel.cs",
+              "ToolTip": "D:\\UI\\Admin\\Admin\\FormControls\\resetEmailLabel.cs [Design]",
+              "RelativeToolTip": "Admin\\FormControls\\resetEmailLabel.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T09:20:26.046Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ChangePwdForm.cs [Design]",
+              "DocumentMoniker": "D:\\UI\\Admin\\Admin\\FormControls\\ChangePwdForm.cs",
+              "RelativeDocumentMoniker": "Admin\\FormControls\\ChangePwdForm.cs",
+              "ToolTip": "D:\\UI\\Admin\\Admin\\FormControls\\ChangePwdForm.cs [Design]",
+              "RelativeToolTip": "Admin\\FormControls\\ChangePwdForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T07:26:53.293Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserDetailsForm.cs [Design]",
+              "DocumentMoniker": "D:\\UI\\Admin\\Admin\\FormControls\\UserDetailsForm.cs",
+              "RelativeDocumentMoniker": "Admin\\FormControls\\UserDetailsForm.cs",
+              "ToolTip": "D:\\UI\\Admin\\Admin\\FormControls\\UserDetailsForm.cs [Design]",
+              "RelativeToolTip": "Admin\\FormControls\\UserDetailsForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T07:26:49.956Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "userListForm.cs [Design]",
+              "DocumentMoniker": "D:\\UI\\Admin\\Admin\\FormControls\\userListForm.cs",
+              "RelativeDocumentMoniker": "Admin\\FormControls\\userListForm.cs",
+              "ToolTip": "D:\\UI\\Admin\\Admin\\FormControls\\userListForm.cs [Design]",
+              "RelativeToolTip": "Admin\\FormControls\\userListForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T07:26:48.258Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DetailsForm.cs [Design]",
+              "DocumentMoniker": "D:\\UI\\Admin\\Admin\\FormControls\\DetailsForm.cs",
+              "RelativeDocumentMoniker": "Admin\\FormControls\\DetailsForm.cs",
+              "ToolTip": "D:\\UI\\Admin\\Admin\\FormControls\\DetailsForm.cs [Design]",
+              "RelativeToolTip": "Admin\\FormControls\\DetailsForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T07:26:32.086Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "resetPwdLabel.cs [Design]",
+              "DocumentMoniker": "D:\\UI\\Admin\\Admin\\FormControls\\resetPwdLabel.cs",
+              "RelativeDocumentMoniker": "Admin\\FormControls\\resetPwdLabel.cs",
+              "ToolTip": "D:\\UI\\Admin\\Admin\\FormControls\\resetPwdLabel.cs [Design]",
+              "RelativeToolTip": "Admin\\FormControls\\resetPwdLabel.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T15:35:52.425Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "checkEmailLabel.cs [Design]",
+              "DocumentMoniker": "D:\\UI\\Admin\\Admin\\FormControls\\checkEmailLabel.cs",
+              "RelativeDocumentMoniker": "Admin\\FormControls\\checkEmailLabel.cs",
+              "ToolTip": "D:\\UI\\Admin\\Admin\\FormControls\\checkEmailLabel.cs [Design]",
+              "RelativeToolTip": "Admin\\FormControls\\checkEmailLabel.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T15:35:52.431Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AddUser.cs [Design]",
+              "DocumentMoniker": "D:\\UI\\Admin\\Admin\\FormControls\\AddUser.cs",
+              "RelativeDocumentMoniker": "Admin\\FormControls\\AddUser.cs",
+              "ToolTip": "D:\\UI\\Admin\\Admin\\FormControls\\AddUser.cs [Design]",
+              "RelativeToolTip": "Admin\\FormControls\\AddUser.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T15:35:51.894Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LoginForm.cs [Design]",
+              "DocumentMoniker": "D:\\UI\\Admin\\Admin\\FormControls\\LoginForm.cs",
+              "RelativeDocumentMoniker": "Admin\\FormControls\\LoginForm.cs",
+              "ToolTip": "D:\\UI\\Admin\\Admin\\FormControls\\LoginForm.cs [Design]",
+              "RelativeToolTip": "Admin\\FormControls\\LoginForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T15:35:52.133Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "HistoryForm.cs [Design]",
+              "DocumentMoniker": "D:\\UI\\Admin\\Admin\\FormControls\\HistoryForm.cs",
+              "RelativeDocumentMoniker": "Admin\\FormControls\\HistoryForm.cs",
+              "ToolTip": "D:\\UI\\Admin\\Admin\\FormControls\\HistoryForm.cs [Design]",
+              "RelativeToolTip": "Admin\\FormControls\\HistoryForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T15:35:51.933Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ForgotPwd.cs [Design]",
+              "DocumentMoniker": "D:\\UI\\Admin\\Admin\\FormControls\\ForgotPwd.cs",
+              "RelativeDocumentMoniker": "Admin\\FormControls\\ForgotPwd.cs",
+              "ToolTip": "D:\\UI\\Admin\\Admin\\FormControls\\ForgotPwd.cs [Design]",
+              "RelativeToolTip": "Admin\\FormControls\\ForgotPwd.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T15:35:52.433Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MainForm.cs [Design]",
+              "DocumentMoniker": "D:\\UI\\Admin\\Admin\\FormControls\\MainForm.cs",
+              "RelativeDocumentMoniker": "Admin\\FormControls\\MainForm.cs",
+              "ToolTip": "D:\\UI\\Admin\\Admin\\FormControls\\MainForm.cs [Design]",
+              "RelativeToolTip": "Admin\\FormControls\\MainForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T15:35:52.478Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 105,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,5 +1,8 @@
-﻿using MongoDB.Driver;
+﻿using CustomControls.RJControls;
+using MongoDB.Bson;
+using MongoDB.Driver;
 using PROJECT.Model;
+using PROJECT.Services;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -14,14 +17,21 @@ namespace PROJECT.FormControl
 {
     public partial class dangkiDNmoi : Form
     {
-        public dangkiDNmoi()
+        private ObjectId idUser;
+        public dangkiDNmoi(ObjectId id)
         {
+            this.idUser = id;
             InitializeComponent();
         }
         private void rjButton1_Click(object sender, EventArgs e)
         {
-            //clear textboxes
-            tableLayoutPanel1.Controls.OfType<TextBox>().ToList().ForEach(textBox => textBox.Clear());
+            foreach (Control c in tableLayoutPanel1.Controls)
+            {
+                if (c is RJTextBox)
+                {
+                    ((RJTextBox)c).Texts = "";
+                }
+            }
         }
 
         private void rjButton2_Click(object sender, EventArgs e)
@@ -57,6 +67,7 @@ namespace PROJECT.FormControl
                 };
                 customer.InsertOne(customerData);
                 MessageBox.Show("Đăng kí doanh nghiệp thành công");
+                OperationServices.RecordStatisticalCustomer(idUser);
             } catch (Exception ex) {
                 MessageBox.Show("Đăng kí doanh nghiệp thất bại");
             }     

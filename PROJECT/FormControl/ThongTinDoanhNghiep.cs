@@ -34,13 +34,60 @@ namespace PROJECT.FormControl
 
             if (find != null)
             {
-                label7.Text = find.Id.ToString();
+                label7.Text = find.IdBusiness.ToString();
                 label8.Text = find.Name;
                 label9.Text = find.EmailAddress;
                 label10.Text = find.PhoneNumber.ToString();
                 label11.Text = find.Address;
                 label13.Text = find.RepresentativeName;
             }
+        }
+        private void ResizeFont(Control control)
+        {
+            try
+            {
+                float fontSize = Math.Min(panel1.Width, panel1.Height) * 0.04f;
+
+                if (control is System.Windows.Forms.Label || control is System.Windows.Forms.Button || control is System.Windows.Forms.TextBox || control is System.Windows.Forms.ComboBox) // Kiểm tra control có chứa text
+                {
+                    control.Font = new Font(control.Font.FontFamily, fontSize);
+                }
+                // Đệ quy qua tất cả các control con
+                foreach (Control childControl in control.Controls)
+                {
+                    ResizeFont(childControl);
+                }
+            }
+            catch (Exception e)
+            {
+                Debug.WriteLine(e.Message);
+            }
+        }
+        private void ResizeFont1(Control control)
+        {
+            try
+            {
+                float fontSize = Math.Min(panel1.Width, panel1.Height) * 0.02f;
+
+                if (control is System.Windows.Forms.Label || control is System.Windows.Forms.Button || control is System.Windows.Forms.TextBox || control is System.Windows.Forms.ComboBox) // Kiểm tra control có chứa text
+                {
+                    control.Font = new Font(control.Font.FontFamily, fontSize);
+                }
+                // Đệ quy qua tất cả các control con
+                foreach (Control childControl in control.Controls)
+                {
+                    ResizeFont1(childControl);
+                }
+            } catch (Exception e)
+            {
+                Debug.WriteLine(e.Message);
+            }
+        }
+
+        private void ThongTinDoanhNghiep_Resize(object sender, EventArgs e)
+        {
+            ResizeFont(this);
+            ResizeFont1(tableLayoutPanel1);
         }
     }
 }

@@ -1,4 +1,5 @@
-﻿using PROJECT.Model;
+﻿using MongoDB.Driver;
+using PROJECT.Model;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -48,34 +49,34 @@ namespace PROJECT
                         donvi.Items.AddRange(new object[] { "pH" }); // Đơn vị cho PH
                         break;
                     case "TotalDissolvedSolids":
-                        donvi.Items.AddRange(new object[] { "mg/L", "ppm" }); // Đơn vị cho Total Dissolved Solids
+                        donvi.Items.AddRange(new object[] { "mg/L"}); // Đơn vị cho Total Dissolved Solids
                         break;
                     case "ColorDegree":
-                        donvi.Items.AddRange(new object[] { "Unit", "Degree" }); // Đơn vị cho Color Degree
+                        donvi.Items.AddRange(new object[] { "Unit"}); // Đơn vị cho Color Degree
                         break;
                     case "TotalSuspendedSolids":
-                        donvi.Items.AddRange(new object[] { "mg/L", "ppm" }); // Đơn vị cho Total Suspended Solids
+                        donvi.Items.AddRange(new object[] { "mg/L" }); // Đơn vị cho Total Suspended Solids
                         break;
                     case "BOD":
-                        donvi.Items.AddRange(new object[] { "mg/L", "ppm" }); // Đơn vị cho BOD
+                        donvi.Items.AddRange(new object[] { "mg/L"}); // Đơn vị cho BOD
                         break;
                     case "COD":
-                        donvi.Items.AddRange(new object[] { "mg/L", "ppm" }); // Đơn vị cho COD
+                        donvi.Items.AddRange(new object[] { "mg/L"}); // Đơn vị cho COD
                         break;
                     case "Ammonia":
-                        donvi.Items.AddRange(new object[] { "mg/L", "ppm" }); // Đơn vị cho Ammonia
+                        donvi.Items.AddRange(new object[] { "mg/L" }); // Đơn vị cho Ammonia
                         break;
                     case "TotalPhosphorus":
-                        donvi.Items.AddRange(new object[] { "mg/L", "ppm" }); // Đơn vị cho Total Phosphorus
+                        donvi.Items.AddRange(new object[] { "mg/L" }); // Đơn vị cho Total Phosphorus
                         break;
                     case "TotalNitrogen":
-                        donvi.Items.AddRange(new object[] { "mg/L", "ppm" }); // Đơn vị cho Total Nitrogen
+                        donvi.Items.AddRange(new object[] { "mg/L" }); // Đơn vị cho Total Nitrogen
                         break;
                     case "Sulfide":
-                        donvi.Items.AddRange(new object[] { "mg/L", "ppm" }); // Đơn vị cho Sulfide
+                        donvi.Items.AddRange(new object[] { "mg/L"}); // Đơn vị cho Sulfide
                         break;
                     case "TotalMineralOil":
-                        donvi.Items.AddRange(new object[] { "mg/L", "ppm" }); // Đơn vị cho Total Mineral Oil
+                        donvi.Items.AddRange(new object[] { "mg/L"}); // Đơn vị cho Total Mineral Oil
                         break;
                     default:
                         donvi.Items.Clear(); // Nếu không có lựa chọn nào, xóa đơn vị
@@ -148,17 +149,23 @@ namespace PROJECT
 
         private void ResizeFont(Control control)
         {
-
-            float fontSize = Math.Min(panel1.Width, panel1.Height) * 0.02f;
-
-            if (control is System.Windows.Forms.Label || control is System.Windows.Forms.Button) // Kiểm tra control có chứa text
+            try
             {
-                control.Font = new Font(control.Font.FontFamily, fontSize);
+                float fontSize = Math.Min(panel1.Width, panel1.Height) * 0.02f;
+
+                if (control is System.Windows.Forms.Label || control is System.Windows.Forms.Button) // Kiểm tra control có chứa text
+                {
+                    control.Font = new Font(control.Font.FontFamily, fontSize);
+                }
+                // Đệ quy qua tất cả các control con
+                foreach (Control childControl in control.Controls)
+                {
+                    ResizeFont(childControl);
+                }
             }
-            // Đệ quy qua tất cả các control con
-            foreach (Control childControl in control.Controls)
+            catch (Exception e)
             {
-                ResizeFont(childControl);
+                Debug.WriteLine(e.Message);
             }
         }
 
@@ -183,16 +190,24 @@ namespace PROJECT
                 // Get controls in the current row
                 var checkBox = (CheckBox)NhapthongsoPanel.GetControlFromPosition(0, rowIndex);
                 var tenchitieuComboBox = NhapthongsoPanel.GetControlFromPosition(1, rowIndex) as ComboBox;
-                var toithieuTextBox = NhapthongsoPanel.GetControlFromPosition(4, rowIndex) as TextBox;
-                var toidaTextBox = NhapthongsoPanel.GetControlFromPosition(3, rowIndex) as TextBox;
+                var toithieuTextBox = NhapthongsoPanel.GetControlFromPosition(3, rowIndex) as TextBox;
+                var toidaTextBox = NhapthongsoPanel.GetControlFromPosition(4, rowIndex) as TextBox;
+
+
+                //Báo lỗi nếu nhập không phải số
 
                 // Process only if checkbox is checked
                 if (checkBox != null && checkBox.Checked)
                 {
+
                     // Get the min and max values as doubles
                     if (double.TryParse(toithieuTextBox.Text, out double minValue) && double.TryParse(toidaTextBox.Text, out double maxValue))
                     {
-                        var values = new List<double> { maxValue, minValue };
+                        if (minValue > maxValue)
+                        {
+                            MessageBox.Show("Giá trị tối thiểu không được lớn hơn giá trị tối đa");
+                        }
+                        var values = new List<double> { minValue, maxValue };
 
                         // Determine the selected parameter and set the respective property
                         switch (tenchitieuComboBox.SelectedItem.ToString())
@@ -239,12 +254,24 @@ namespace PROJECT
             }
             var collection = MongoHelper.GetCompareStandardCollection();
             collection.InsertOne(compareStandard);
-            Debug.WriteLine("Inserted new compare standard");
+            MessageBox.Show("Thêm tiêu chuẩn so sánh thành công");
         }
 
         private void NhapThongSo_Resize(object sender, EventArgs e)
         {
             ResizeFont(this);
+        }
+
+        private void rjTextBox1_Leave(object sender, EventArgs e)
+        {
+            var collection = MongoHelper.GetCompareStandardCollection();
+            var filter = Builders<CompareStandard>.Filter.Eq("Name", rjTextBox1.Texts);
+            var result = collection.Find(filter).FirstOrDefault();
+            if (result != null)
+            {
+                MessageBox.Show("Tên tiêu chuẩn đã tồn tại");
+                rjTextBox1.Texts = "";
+            }
         }
     }
 }

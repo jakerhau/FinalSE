@@ -139,12 +139,12 @@ namespace PROJECT
             rjTextBox2.Multiline = false;
             rjTextBox2.Name = "rjTextBox2";
             rjTextBox2.Padding = new Padding(10, 7, 10, 7);
-            rjTextBox2.PasswordChar = false;
+            rjTextBox2.PasswordChar = true;
             rjTextBox2.PlaceholderColor = Color.Transparent;
             rjTextBox2.PlaceholderText = "";
             rjTextBox2.Size = new Size(200, 31);
             rjTextBox2.TabIndex = 2;
-            rjTextBox2.Texts = "a";
+            rjTextBox2.Texts = "mySecretPassword";
             rjTextBox2.UnderlinedStyle = true;
             // 
             // label3

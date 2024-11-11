@@ -41,8 +41,6 @@
             ID = new DataGridViewTextBoxColumn();
             MaHD = new DataGridViewTextBoxColumn();
             Tientrinh = new DataGridViewTextBoxColumn();
-            Phantich = new DataGridViewTextBoxColumn();
-            Baocao = new DataGridViewTextBoxColumn();
             panel2.SuspendLayout();
             tableLayoutPanel1.SuspendLayout();
             tableLayoutPanel2.SuspendLayout();
@@ -101,6 +99,7 @@
             textBox1.Size = new Size(538, 23);
             textBox1.TabIndex = 1;
             textBox1.TextAlign = HorizontalAlignment.Center;
+            textBox1.TextChanged += textBox1_TextChanged;
             // 
             // button1
             // 
@@ -111,8 +110,8 @@
             button1.Name = "button1";
             button1.Size = new Size(56, 27);
             button1.TabIndex = 2;
+            button1.Text = "Tìm kiếm";
             button1.UseVisualStyleBackColor = false;
-            button1.Click += button1_Click;
             // 
             // dataGridView1
             // 
@@ -133,7 +132,7 @@
             dataGridViewCellStyle1.WrapMode = DataGridViewTriState.True;
             dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             dataGridView1.ColumnHeadersHeight = 35;
-            dataGridView1.Columns.AddRange(new DataGridViewColumn[] { ID, MaHD, Tientrinh, Phantich, Baocao });
+            dataGridView1.Columns.AddRange(new DataGridViewColumn[] { ID, MaHD, Tientrinh });
             dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle2.BackColor = SystemColors.Window;
             dataGridViewCellStyle2.Font = new Font("Segoe UI", 9F);
@@ -164,45 +163,32 @@
             dataGridView1.Size = new Size(598, 283);
             dataGridView1.TabIndex = 2;
             dataGridView1.CellClick += dataGridView1_CellClick;
+            dataGridView1.CellFormatting += dataGridView1_CellFormatting;
             // 
             // ID
             // 
             ID.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
             ID.FillWeight = 150F;
             ID.HeaderText = "Mã mẫu";
+            ID.MinimumWidth = 200;
             ID.Name = "ID";
             ID.ReadOnly = true;
             // 
             // MaHD
             // 
+            MaHD.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
             MaHD.HeaderText = "Mã HĐ";
             MaHD.Name = "MaHD";
             MaHD.ReadOnly = true;
-            MaHD.Width = 133;
             // 
             // Tientrinh
             // 
+            Tientrinh.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
             Tientrinh.FillWeight = 133F;
             Tientrinh.HeaderText = "Tiến trình";
+            Tientrinh.MinimumWidth = 20;
             Tientrinh.Name = "Tientrinh";
             Tientrinh.ReadOnly = true;
-            Tientrinh.Width = 133;
-            // 
-            // Phantich
-            // 
-            Phantich.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
-            Phantich.FillWeight = 150F;
-            Phantich.HeaderText = "Phân tích";
-            Phantich.Name = "Phantich";
-            Phantich.ReadOnly = true;
-            // 
-            // Baocao
-            // 
-            Baocao.AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
-            Baocao.FillWeight = 150F;
-            Baocao.HeaderText = "Báo cáo";
-            Baocao.Name = "Baocao";
-            Baocao.ReadOnly = true;
             // 
             // XuLyMauMain
             // 
@@ -234,7 +220,5 @@
         private DataGridViewTextBoxColumn ID;
         private DataGridViewTextBoxColumn MaHD;
         private DataGridViewTextBoxColumn Tientrinh;
-        private DataGridViewTextBoxColumn Phantich;
-        private DataGridViewTextBoxColumn Baocao;
     }
 }

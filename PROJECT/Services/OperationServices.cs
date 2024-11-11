@@ -1,8 +1,10 @@
-﻿using MongoDB.Bson;
+﻿using Microsoft.AspNetCore.Mvc;
+using MongoDB.Bson;
 using MongoDB.Driver;
 using PROJECT.Model;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -11,103 +13,97 @@ namespace PROJECT.Services
 {
     public class OperationServices
     {
-        private readonly IMongoCollection<Operation> _operationCollection;
-        public OperationServices()
+        public static void RecordLogin(ObjectId idUser)
         {
-            _operationCollection = MongoHelper.GetCollection<Operation>("operations");
-        }
-        public async Task RecordLoginTime(string userId)
-        {
-            var filter = Builders<Operation>.Filter.Eq(o => o.IdUser, new ObjectId(userId));
-
-            var update = Builders<Operation>.Update.Push(o => o.LoginTime, DateTime.UtcNow);
-
-            var result = await _operationCollection.UpdateOneAsync(filter, update);
-
+            var operation = MongoHelper.GetDatabase().GetCollection<BsonDocument>("Operation");
+            var filter = Builders<BsonDocument>.Filter.Eq("IdUser", idUser);
+            var update = Builders<BsonDocument>.Update.Push("LoginTime", DateTime.Now);
+            var result = operation.UpdateOne(filter, update);
             if (result.ModifiedCount > 0)
             {
-                Console.WriteLine("Login time recorded successfully.");
+                Debug.WriteLine("User login time added successfully.");
             }
             else
             {
-                Console.WriteLine("Failed to record login time or user not found.");
+                Debug.WriteLine("User login time added failed.");
             }
         }
-        public async Task RecordLogoutTime(string userId)
+        public static void RecordLogout(ObjectId idUser)
         {
-            var filter = Builders<Operation>.Filter.Eq(o => o.IdUser, new ObjectId(userId));
-            var update = Builders<Operation>.Update.Push(o => o.LogoutTime, DateTime.UtcNow);
-            var result = await _operationCollection.UpdateOneAsync(filter, update);
-
+            var operation = MongoHelper.GetDatabase().GetCollection<BsonDocument>("Operation");
+            var filter = Builders<BsonDocument>.Filter.Eq("IdUser", idUser);
+            var update = Builders<BsonDocument>.Update.Push("LogoutTime", DateTime.Now);
+            var result = operation.UpdateOne(filter, update);
             if (result.ModifiedCount > 0)
             {
-                Console.WriteLine("Logout time recorded successfully.");
+                Debug.WriteLine("User logout time added successfully.");
             }
             else
             {
-                Console.WriteLine("Failed to record logout time or user not found.");
+                Debug.WriteLine("User logout time added failed.");
             }
         }
-        public async Task RecordStatisticalMerge(string userId)
+        public static void RecordStatisticalMerge(ObjectId idUser)
         {
-            var filter = Builders<Operation>.Filter.Eq(o => o.IdUser, new ObjectId(userId));
-            var update = Builders<Operation>.Update.Push(o => o.StatisticalMerge, DateTime.UtcNow);
-            var result = await _operationCollection.UpdateOneAsync(filter, update);
-
+            var operation = MongoHelper.GetDatabase().GetCollection<BsonDocument>("Operation");
+            var filter = Builders<BsonDocument>.Filter.Eq("IdUser", idUser);
+            var update = Builders<BsonDocument>.Update.Push("ContractStatistics", DateTime.Now);
+            var result = operation.UpdateOne(filter, update);
             if (result.ModifiedCount > 0)
             {
-                Console.WriteLine("Statistical Merge time recorded successfully.");
+                Debug.WriteLine("User statistical merge added successfully.");
             }
             else
             {
-                Console.WriteLine("Failed to record statistical merge time or user not found.");
+                Debug.WriteLine("User statistical merge added failed.");
             }
         }
-        public async Task RecordStatisticalCustomer(string userId)
+        public static void RecordStatisticalCustomer(ObjectId idUser)
         {
-            var filter = Builders<Operation>.Filter.Eq(o => o.IdUser, new ObjectId(userId));
-            var update = Builders<Operation>.Update.Push(o => o.StatisticalCustomer, DateTime.UtcNow);
-            var result = await _operationCollection.UpdateOneAsync(filter, update);
-
+            var operation = MongoHelper.GetDatabase().GetCollection<BsonDocument>("Operation");
+            var filter = Builders<BsonDocument>.Filter.Eq("IdUser", idUser);
+            var update = Builders<BsonDocument>.Update.Push("CustomerStatistics", DateTime.Now);
+            var result = operation.UpdateOne(filter, update);
             if (result.ModifiedCount > 0)
             {
-                Console.WriteLine("Statistical Customer time recorded successfully.");
+                Debug.WriteLine("User statistical customer added successfully.");
             }
             else
             {
-                Console.WriteLine("Failed to record statistical customer time or user not found.");
+                Debug.WriteLine("User statistical customer added failed.");
             }
         }
-        public async Task RecordExportReport(string userId)
+        //ExportReport
+        public static void RecordExportReport(ObjectId idUser)
         {
-            var filter = Builders<Operation>.Filter.Eq(o => o.IdUser, new ObjectId(userId));
-            var update = Builders<Operation>.Update.Push(o => o.ExportReport, DateTime.UtcNow);
-            var result = await _operationCollection.UpdateOneAsync(filter, update);
-
+            var operation = MongoHelper.GetDatabase().GetCollection<BsonDocument>("Operation");
+            var filter = Builders<BsonDocument>.Filter.Eq("IdUser", idUser);
+            var update = Builders<BsonDocument>.Update.Push("ExportReport", DateTime.Now);
+            var result = operation.UpdateOne(filter, update);
             if (result.ModifiedCount > 0)
             {
-                Console.WriteLine("Export Report time recorded successfully.");
+                Debug.WriteLine("User export report added successfully.");
             }
             else
             {
-                Console.WriteLine("Failed to record export report time or user not found.");
+                Debug.WriteLine("User export report added failed.");
             }
         }
-        public async Task RecordInputTime(string userId)
+        //InputTime
+        public static void RecordInputTime(ObjectId idUser)
         {
-            var filter = Builders<Operation>.Filter.Eq(o => o.IdUser, new ObjectId(userId));
-            var update = Builders<Operation>.Update.Push(o => o.InputTime, DateTime.UtcNow);
-            var result = await _operationCollection.UpdateOneAsync(filter, update);
-
+            var operation = MongoHelper.GetDatabase().GetCollection<BsonDocument>("Operation");
+            var filter = Builders<BsonDocument>.Filter.Eq("IdUser", idUser);
+            var update = Builders<BsonDocument>.Update.Push("InputTime", DateTime.Now);
+            var result = operation.UpdateOne(filter, update);
             if (result.ModifiedCount > 0)
             {
-                Console.WriteLine("Input Time recorded successfully.");
+                Debug.WriteLine("User input time added successfully.");
             }
             else
             {
-                Console.WriteLine("Failed to record input time or user not found.");
+                Debug.WriteLine("User input time added failed.");
             }
         }
-
     }
 }

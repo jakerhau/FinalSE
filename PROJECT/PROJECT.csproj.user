@@ -49,6 +49,9 @@
     <Compile Update="FormControl\XuLyMauMain.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="FormControl\XuLyMauMain_readonly.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="FormPDF.cs">
       <SubType>Form</SubType>
     </Compile>

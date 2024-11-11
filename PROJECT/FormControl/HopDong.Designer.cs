@@ -40,12 +40,14 @@ namespace PROJECT.FormControl
             MaHD = new DataGridViewTextBoxColumn();
             MaDN = new DataGridViewTextBoxColumn();
             Tinhtrangxuly = new DataGridViewTextBoxColumn();
+            panel2 = new Panel();
             tableLayoutPanel2 = new TableLayoutPanel();
             textBox1 = new TextBox();
             button1 = new Button();
             panel1 = new Panel();
             tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            panel2.SuspendLayout();
             tableLayoutPanel2.SuspendLayout();
             panel1.SuspendLayout();
             SuspendLayout();
@@ -55,7 +57,7 @@ namespace PROJECT.FormControl
             tableLayoutPanel1.ColumnCount = 1;
             tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
             tableLayoutPanel1.Controls.Add(dataGridView1, 0, 1);
-            tableLayoutPanel1.Controls.Add(tableLayoutPanel2, 0, 0);
+            tableLayoutPanel1.Controls.Add(panel2, 0, 0);
             tableLayoutPanel1.Dock = DockStyle.Fill;
             tableLayoutPanel1.Location = new Point(0, 0);
             tableLayoutPanel1.Margin = new Padding(2);
@@ -117,6 +119,7 @@ namespace PROJECT.FormControl
             dataGridView1.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
             dataGridView1.Size = new Size(809, 330);
             dataGridView1.TabIndex = 0;
+            dataGridView1.CellDoubleClick += dataGridView1_CellDoubleClick;
             dataGridView1.CellFormatting += dataGridView1_CellFormatting;
             // 
             // MaHD
@@ -140,21 +143,32 @@ namespace PROJECT.FormControl
             Tinhtrangxuly.Name = "Tinhtrangxuly";
             Tinhtrangxuly.ReadOnly = true;
             // 
+            // panel2
+            // 
+            panel2.BackColor = Color.White;
+            panel2.Controls.Add(tableLayoutPanel2);
+            panel2.Dock = DockStyle.Fill;
+            panel2.Location = new Point(3, 3);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(807, 24);
+            panel2.TabIndex = 1;
+            // 
             // tableLayoutPanel2
             // 
+            tableLayoutPanel2.BackColor = Color.White;
             tableLayoutPanel2.ColumnCount = 2;
             tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 90.70632F));
             tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 9.29368F));
             tableLayoutPanel2.Controls.Add(textBox1, 0, 0);
             tableLayoutPanel2.Controls.Add(button1, 1, 0);
-            tableLayoutPanel2.Dock = DockStyle.Fill;
-            tableLayoutPanel2.Location = new Point(3, 3);
+            tableLayoutPanel2.Dock = DockStyle.Top;
+            tableLayoutPanel2.Location = new Point(0, 0);
             tableLayoutPanel2.Name = "tableLayoutPanel2";
             tableLayoutPanel2.RowCount = 1;
             tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
             tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
             tableLayoutPanel2.Size = new Size(807, 24);
-            tableLayoutPanel2.TabIndex = 1;
+            tableLayoutPanel2.TabIndex = 2;
             // 
             // textBox1
             // 
@@ -176,6 +190,7 @@ namespace PROJECT.FormControl
             button1.Name = "button1";
             button1.Size = new Size(75, 24);
             button1.TabIndex = 2;
+            button1.Text = "Tìm kiếm";
             button1.UseVisualStyleBackColor = false;
             // 
             // panel1
@@ -201,6 +216,7 @@ namespace PROJECT.FormControl
             Resize += HopDong_Resize;
             tableLayoutPanel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            panel2.ResumeLayout(false);
             tableLayoutPanel2.ResumeLayout(false);
             tableLayoutPanel2.PerformLayout();
             panel1.ResumeLayout(false);
@@ -214,9 +230,10 @@ namespace PROJECT.FormControl
         private DataGridViewTextBoxColumn MaHD;
         private DataGridViewTextBoxColumn MaDN;
         private DataGridViewTextBoxColumn Tinhtrangxuly;
+        private Panel panel1;
+        private Panel panel2;
         private TableLayoutPanel tableLayoutPanel2;
         private TextBox textBox1;
         private Button button1;
-        private Panel panel1;
     }
 }

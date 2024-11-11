@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -9,6 +10,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using PROJECT.FormControl;
 using PROJECT.Model;
+using PROJECT.Services;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace PROJECT
@@ -20,6 +22,10 @@ namespace PROJECT
         public Main1()
         {
             InitializeComponent();
+        }
+        public User GetUser()
+        {
+            return user;
         }
 
         public void setUser(User user)
@@ -84,17 +90,22 @@ namespace PROJECT
 
         private void ResizeFont(Control control)
         {
-
-            float fontSize = Math.Min(panel1.Width, panel1.Height) * 0.02f;
-
-            if (control is System.Windows.Forms.Label || control is System.Windows.Forms.Button || control is System.Windows.Forms.TextBox || control is System.Windows.Forms.ComboBox) // Kiểm tra control có chứa text
+            try
             {
-                control.Font = new Font(control.Font.FontFamily, fontSize);
-            }
-            // Đệ quy qua tất cả các control con
-            foreach (Control childControl in control.Controls)
+                float fontSize = Math.Min(panel1.Width, panel1.Height) * 0.02f;
+
+                if (control is System.Windows.Forms.Label || control is System.Windows.Forms.Button || control is System.Windows.Forms.TextBox || control is System.Windows.Forms.ComboBox) // Kiểm tra control có chứa text
+                {
+                    control.Font = new Font(control.Font.FontFamily, fontSize);
+                }
+                // Đệ quy qua tất cả các control con
+                foreach (Control childControl in control.Controls)
+                {
+                    ResizeFont(childControl);
+                }
+            } catch (Exception e)
             {
-                ResizeFont(childControl);
+                Debug.WriteLine(e.Message);
             }
         }
 
@@ -109,7 +120,7 @@ namespace PROJECT
                 currentButton.BackColor = Color.FromArgb(246, 246, 246);
             }
 
-            button.BackColor = Color.FromArgb(141, 185, 106); // Màu khi được chọn
+            button.BackColor = Color.LightGray; 
             currentButton = button;
         }
 
@@ -133,12 +144,14 @@ namespace PROJECT
 
         private void button3_Click_1(object sender, EventArgs e)
         {
+            OperationServices.RecordStatisticalMerge(user.Id);
             SelectButton(rjButton2);
             hopdongItem hdit = new hopdongItem();
             hdit.setUser(user);
             hdit.setMainForm(this);
             ShowPanelItem(hdit);
             HopDong hd = new HopDong(user);
+            hd.setMain(this);
             ShowFormInPanel(hd);
         }
 
@@ -153,6 +166,7 @@ namespace PROJECT
         private void button5_Click_1(object sender, EventArgs e)
         {
             SelectButton(rjButton3);
+            OperationServices.RecordLogout(user.Id);
             LoginForm loginForm = new LoginForm(this);
             openChildFormInContent(loginForm);
         }
@@ -173,6 +187,12 @@ namespace PROJECT
         private void Main1_Load(object sender, EventArgs e)
         {
             openChildFormInContent(new LoginForm(this));
+            ResizeFont(button1j);
+            ResizeFont(rjButton1);
+            ResizeFont(rjButton2);
+            ResizeFont(rjButton3);
+            ResizeFont(rjButton4);
+            ResizeFont(label1);
         }
 
         private void paneDesktop_Paint(object sender, PaintEventArgs e)

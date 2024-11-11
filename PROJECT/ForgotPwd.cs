@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -45,17 +46,23 @@ namespace PROJECT
 
         private void ResizeFont(Control control)
         {
-
-            float fontSize = Math.Min(panel1.Width, panel1.Height) * 0.02f;
-
-            if (control is System.Windows.Forms.Label || control is System.Windows.Forms.Button || control is System.Windows.Forms.TextBox || control is System.Windows.Forms.ComboBox) // Kiểm tra control có chứa text
+            try
             {
-                control.Font = new Font(control.Font.FontFamily, fontSize);
+                float fontSize = Math.Min(panel1.Width, panel1.Height) * 0.02f;
+
+                if (control is System.Windows.Forms.Label || control is System.Windows.Forms.Button || control is System.Windows.Forms.TextBox || control is System.Windows.Forms.ComboBox) // Kiểm tra control có chứa text
+                {
+                    control.Font = new Font(control.Font.FontFamily, fontSize);
+                }
+                // Đệ quy qua tất cả các control con
+                foreach (Control childControl in control.Controls)
+                {
+                    ResizeFont(childControl);
+                }
             }
-            // Đệ quy qua tất cả các control con
-            foreach (Control childControl in control.Controls)
+            catch (Exception e)
             {
-                ResizeFont(childControl);
+                Debug.WriteLine(e.Message);
             }
         }
 
